@@ -1,3 +1,0 @@
-C:/University/CPC/competitive-programming/cmake-build-debug/CMakeFiles/code.dir
-C:/University/CPC/competitive-programming/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/University/CPC/competitive-programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

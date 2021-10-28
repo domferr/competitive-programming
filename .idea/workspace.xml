@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SlidingWindowMaximum/slidingwindowmaximum.tpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowMaximum/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowMaximum/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowMaximum/slidingwindowmaximum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SlidingWindowMaximum/slidingwindowmaximum.h" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowMaximum/slidingwindowmaximum.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SlidingWindowMaximum/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowMaximum/tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrappingRainWater/trappingrainwater.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TrappingRainWater/trappingrainwater.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Google Test.trapping_rain_water_test">
+  <component name="RunManager" selected="Google Test.sliding_window_maximum_test">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -129,8 +132,8 @@
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.sliding_window_maximum_test" />
       <item itemvalue="CTest Application.All CTest" />
-      <item itemvalue="Google Test.trapping_rain_water_test" />
       <item itemvalue="Google Test.sliding_window_maximum_test" />
+      <item itemvalue="Google Test.trapping_rain_water_test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -141,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1635424706346</updated>
-      <workItem from="1635424708579" duration="5288000" />
+      <workItem from="1635424708579" duration="7470000" />
     </task>
     <servers />
   </component>

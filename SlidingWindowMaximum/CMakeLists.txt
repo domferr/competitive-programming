@@ -16,7 +16,7 @@ enable_testing()
 
 add_executable(
         sliding_window_maximum_test
-        slidingwindowmaximum.cpp
+        slidingwindowmaximum.tpp
         slidingwindowmaximum.h
         tests.cpp)
 target_link_libraries(

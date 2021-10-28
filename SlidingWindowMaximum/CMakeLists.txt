@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(trappingrainwater)
+project(slidingwindowmaximum)
 
 set(CMAKE_CXX_STANDARD 20)
 
@@ -15,15 +15,14 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 add_executable(
-        trapping_rain_water_test
-        tests.cpp
-        trappingrainwater.cpp
-        trappingrainwater.h
-)
+        sliding_window_maximum_test
+        slidingwindowmaximum.cpp
+        slidingwindowmaximum.h
+        tests.cpp)
 target_link_libraries(
-        trapping_rain_water_test
+        sliding_window_maximum_test
         gtest_main
 )
 
 include(GoogleTest)
-gtest_discover_tests(trapping_rain_water_test)
+gtest_discover_tests(sliding_window_maximum_test)

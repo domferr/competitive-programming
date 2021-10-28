@@ -3,4 +3,5 @@ project(competitive-programming)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(competitive-programming main.cpp)
+add_subdirectory(TrappingRainWater)
+add_subdirectory(SlidingWindowMaximum)

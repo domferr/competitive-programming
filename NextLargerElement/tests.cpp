@@ -18,3 +18,17 @@ TEST(SlidingWindowMaximumTest2, BasicAssertions) {
     auto res = nextlargerelement(elements);
     EXPECT_EQ(res, solution);
 }
+
+TEST(SlidingWindowMaximumTest3, BasicAssertions) {
+    std::vector<int> elements {14, 3, 12, 5, 1, 6, 7};
+    std::vector<int> solution = {-1, 12, -1, 6, 6, 7, -1};
+    auto res = nextlargerelement(elements);
+    EXPECT_EQ(res, solution);
+}
+
+TEST(SlidingWindowMaximumTest4, BasicAssertions) {
+    std::vector<int> elements {1, 13, 4, 9, 6};
+    std::vector<int> solution = {13, -1, 9, -1, -1};
+    auto res = nextlargerelement(elements);
+    EXPECT_EQ(res, solution);
+}

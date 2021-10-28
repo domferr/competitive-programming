@@ -10,8 +10,30 @@
 
 #include "trappingrainwater.h"
 
+template<typename Iterator>
+int trapped_rain_water(Iterator it, int& level) {
+    if (*it > level) {
+        level = *it;
+    }
+    return level - *it;
+}
+
 int trapping_rain_water(const std::vector<int>& vec) {
-    return naive_trapping_rain_water(vec);
+    auto begin = vec.begin();
+    auto end = vec.end() - 1;
+    int total_trapped_rain = 0;
+    int current_elev = 0;
+
+    while (begin != end) {
+        if (*begin <= *end) {
+            total_trapped_rain += trapped_rain_water(begin, current_elev);
+            ++begin;
+        } else {
+            total_trapped_rain += trapped_rain_water(end, current_elev);
+            --end;
+        }
+    }
+    return total_trapped_rain;
 }
 
 int naive_trapping_rain_water(const std::vector<int>& vec) {

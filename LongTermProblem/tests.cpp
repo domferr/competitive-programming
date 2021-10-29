@@ -6,43 +6,43 @@
 #include "longtermproblem.h"
 
 TEST(LongTermProblemTest1, BasicAssertions) {
-    std::vector<std::string> strings {"Hello", "my friends", "I'm so happy", "another useful string", "sometimes", "happiness"};
+    std::vector<std::string> strings {"another useful string", "happiness", "hello", "i'm so happy", "my friends", "sometimes"};
     std::string key = "my friends";
-    auto res = long_term_problem(strings, key);
-    EXPECT_EQ(res, 1);
+    size_t res = long_term_problem(strings, key);
+    EXPECT_EQ(res, 4);
 }
 
 TEST(LongTermProblemTest2, BasicAssertions) {
-    std::vector<std::string> strings {"Hello", "my friends", "I'm so happy", "another useful string", "sometimes", "happiness"};
-    std::string key = "Hello";
-    auto res = long_term_problem(strings, key);
-    EXPECT_EQ(res, 0);
+    std::vector<std::string> strings {"another useful string", "happiness", "hello", "i'm so happy", "my friends"};
+    std::string key = "hello";
+    size_t res = long_term_problem(strings, key);
+    EXPECT_EQ(res, 2);
 }
 
 TEST(LongTermProblemTest3, BasicAssertions) {
-    std::vector<std::string> strings {"Hello", "my friends", "I'm so happy", "another useful string", "sometimes", "happiness"};
+    std::vector<std::string> strings {"another useful string", "happiness", "hello", "i'm so happy", "my friends", "sometimes"};
     std::string key = "happiness";
-    auto res = long_term_problem(strings, key);
-    EXPECT_EQ(res, 5);
+    size_t res = long_term_problem(strings, key);
+    EXPECT_EQ(res, 1);
 }
 
 TEST(LongTermProblemTest4, BasicAssertions) {
-    std::vector<std::string> strings {"Hello", "my friends", "I'm so happy", "another useful string", "sometimes", "happiness"};
+    std::vector<std::string> strings {"another useful string", "happiness", "hello", "i'm so happy", "my friends", "sometimes"};
     std::string key = "this string is not in the vector of strings";
-    auto res = long_term_problem(strings, key);
+    size_t res = long_term_problem(strings, key);
     EXPECT_EQ(res, -1);
 }
 
 TEST(LongTermProblemTest5, BasicAssertions) {
-    std::vector<std::string> strings {"Hello", "my friends", "I'm so happy", "another useful string", "sometimes", "happiness"};
+    std::vector<std::string> strings {"nothing", "happiness", "hello", "i'm so happy", "my friends", "sometimes"};
     std::string key = "another useful string";
-    auto res = long_term_problem(strings, key);
-    EXPECT_EQ(res, 3);
+    size_t res = long_term_problem(strings, key);
+    EXPECT_EQ(res, -1);
 }
 
 TEST(LongTermProblemTest6, BasicAssertions) {
-    std::vector<std::string> strings {"Hello", "my friends", "I'm so happy", "another useful string", "sometimes", "happiness"};
+    std::vector<std::string> strings {"another useful string", "happiness", "hello", "i'm so happy", "my friends", "sometimes"};
     std::string key = "my FRIENDS";
-    auto res = long_term_problem(strings, key);
+    size_t res = long_term_problem(strings, key);
     EXPECT_EQ(res, -1);
 }

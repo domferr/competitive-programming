@@ -8,6 +8,6 @@
 #include <iostream>
 #include <vector>
 
-int long_term_problem(const std::vector<std::string> &strings, std::string key);
+size_t long_term_problem(const std::vector<std::string> &strings, const std::string& key);
 
 #endif //COMPETITIVE_PROGRAMMING_LONGTERMPROBLEM_H

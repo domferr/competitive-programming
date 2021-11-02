@@ -6,13 +6,14 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="competitive-programming" targetName="gmock" />
-      <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
       <config projectName="competitive-programming" targetName="sliding_window_maximum_test" />
+      <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
+      <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
       <config projectName="competitive-programming" targetName="gtest" />
       <config projectName="competitive-programming" targetName="gmock_main" />
       <config projectName="competitive-programming" targetName="gtest_main" />
-      <config projectName="competitive-programming" targetName="next_larger_element_test" />
       <config projectName="competitive-programming" targetName="long_term_problem_test" />
+      <config projectName="competitive-programming" targetName="next_larger_element_test" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -22,10 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MaxSegmentIntersections/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxSegmentIntersections/maxsegmentintersections.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxSegmentIntersections/maxsegmentintersections.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxSegmentIntersections/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongTermProblem/longtermproblem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LongTermProblem/longtermproblem.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongTermProblem/longtermproblem.h" beforeDir="false" afterPath="$PROJECT_DIR$/LongTermProblem/longtermproblem.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongTermProblem/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LongTermProblem/tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +74,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Google Test.long_term_problem_test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="Google Test.max_segment_intersections_test">
+    <configuration name="long_term_problem_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="long_term_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="long_term_problem_test" TEST_MODE="SUITE_TEST">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="long_term_problem_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="long_term_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="long_term_problem_test" TEST_MODE="SUITE_TEST">
+    <configuration name="max_segment_intersections_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="max_segment_intersections_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="max_segment_intersections_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -101,6 +105,11 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -121,17 +130,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="long_term_problem_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="long_term_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="long_term_problem_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="next_larger_element_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="next_larger_element_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="next_larger_element_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sliding_window_maximum_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="sliding_window_maximum_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="sliding_window_maximum_test">
+    <configuration name="max_segment_intersections_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="max_segment_intersections_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="max_segment_intersections_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -148,18 +147,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.max_segment_intersections_test" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
-      <item itemvalue="CMake Application.long_term_problem_test" />
-      <item itemvalue="CMake Application.next_larger_element_test" />
-      <item itemvalue="CMake Application.sliding_window_maximum_test" />
       <item itemvalue="CTest Application.All CTest" />
       <item itemvalue="Google Test.next_larger_element_test" />
-      <item itemvalue="Google Test.long_term_problem_test" />
+      <item itemvalue="Google Test.max_segment_intersections_test" />
       <item itemvalue="Google Test.sliding_window_maximum_test" />
       <item itemvalue="Google Test.trapping_rain_water_test" />
+      <item itemvalue="Google Test.long_term_problem_test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -173,6 +171,7 @@
       <workItem from="1635424708579" duration="8227000" />
       <workItem from="1635450199125" duration="4056000" />
       <workItem from="1635492712584" duration="5970000" />
+      <workItem from="1635841669664" duration="2953000" />
     </task>
     <servers />
   </component>

@@ -5,22 +5,22 @@
 // Target time: theta(nlogn) time
 //
 
-#include <map>
+#include <set>
 #include <iostream>
 #include "maxsegmentintersections.h"
 
 int max_segment_intersections(const std::vector<segment> &segments) {
     int max_seen = -1;
     int max_pos = -1;
-    std::map<int, bool> map;
+    std::multiset<std::pair<int, bool>> multiset;
     for (segment seg: segments) {
-        map.insert(std::make_pair(seg.start, false));
-        map.insert(std::make_pair(seg.end, true));
+        multiset.insert(std::make_pair(seg.start, false));
+        multiset.insert(std::make_pair(seg.end, true));
     }
 
     int current_seen = 0;
-    std::map<int, bool>::iterator it;
-    for(it=map.begin(); it!=map.end(); ++it) {
+    std::multiset<std::pair<int, bool>>::iterator it;
+    for(it=multiset.begin(); it != multiset.end(); ++it) {
         if (it->second)
             current_seen--;
         else

@@ -29,7 +29,6 @@ int max_segment_intersections(const std::vector<segment> &segments) {
             max_pos = it->first;
             max_seen = current_seen;
         }
-        std::cout << it->first << " => " << it->second << std::endl;
     }
     return max_pos;
 }

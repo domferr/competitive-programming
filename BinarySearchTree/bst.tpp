@@ -78,24 +78,3 @@ bool bst<C, CMP>::contains(const value_type &v) {
 
     return false;
 }
-
-template <class Val, class Compare>
-void bst<Val, Compare>::traversal_inorder(int current_index, void (*fun)(const value_type &)) {
-    if (current_index != NO_ELEM) {
-        bst_node *curr = data[current_index];
-        traversal_inorder(curr->left_index, fun);
-        fun(curr->value);
-        traversal_inorder(curr->right_index, fun);
-    }
-}
-
-template <class Val>
-void print_fun(const Val &val) {
-    std::cout << val << " " << std::endl;
-}
-
-template <class Val, class Compare>
-void bst<Val, Compare>::print() {
-    traversal_inorder(0, &print_fun<Val>);
-    std::cout << "FINE" << std::endl;
-}

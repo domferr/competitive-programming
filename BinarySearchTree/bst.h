@@ -29,7 +29,6 @@ public:
     const value_type& min();
     const value_type& max();
     bool contains(const value_type&);
-    void print();
 
     /* iterators */
     iterator begin() { return iterator(&data, min_index); }
@@ -48,9 +47,6 @@ protected:
     std::vector<bst_node*> data;
     int max_index = NO_ELEM;
     int min_index = NO_ELEM;
-
-private:
-    void traversal_inorder(int current_index, void (*fun)(const value_type &));
 };
 
 #include "bst.tpp"

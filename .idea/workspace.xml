@@ -10,6 +10,7 @@
       <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
       <config projectName="competitive-programming" targetName="gtest" />
+      <config projectName="competitive-programming" targetName="bst_test" />
       <config projectName="competitive-programming" targetName="gmock_main" />
       <config projectName="competitive-programming" targetName="gtest_main" />
       <config projectName="competitive-programming" targetName="long_term_problem_test" />
@@ -23,10 +24,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MaxSegmentIntersections/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxSegmentIntersections/maxsegmentintersections.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxSegmentIntersections/maxsegmentintersections.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxSegmentIntersections/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/bst.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/bst.tpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/bst_inorder_iterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/unit_tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
@@ -48,6 +50,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="208SQVCRsaAyWUcNO5nBajVIhdv" />
   <component name="ProjectLevelVcsManager">
@@ -74,7 +84,18 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Google Test.max_segment_intersections_test">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\University\CPC\competitive-programming" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Google Test.bst_test">
+    <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="long_term_problem_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="long_term_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="long_term_problem_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -153,8 +174,9 @@
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CTest Application.All CTest" />
-      <item itemvalue="Google Test.next_larger_element_test" />
       <item itemvalue="Google Test.max_segment_intersections_test" />
+      <item itemvalue="Google Test.bst_test" />
+      <item itemvalue="Google Test.next_larger_element_test" />
       <item itemvalue="Google Test.sliding_window_maximum_test" />
       <item itemvalue="Google Test.trapping_rain_water_test" />
       <item itemvalue="Google Test.long_term_problem_test" />
@@ -171,7 +193,11 @@
       <workItem from="1635424708579" duration="8227000" />
       <workItem from="1635450199125" duration="4056000" />
       <workItem from="1635492712584" duration="5970000" />
-      <workItem from="1635841669664" duration="2953000" />
+      <workItem from="1635841669664" duration="4625000" />
+      <workItem from="1635944625447" duration="3415000" />
+      <workItem from="1635947475004" duration="7097000" />
+      <workItem from="1636013363381" duration="29189000" />
+      <workItem from="1636100766025" duration="9608000" />
     </task>
     <servers />
   </component>

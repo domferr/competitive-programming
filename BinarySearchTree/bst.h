@@ -8,8 +8,7 @@
 #include <vector>
 #include <iostream>
 #include "bst_inorder_iterator.h"
-
-#define NO_ELEM -1
+#include "bst_utils.h"
 
 template<class ValTy, class Compare = std::less<ValTy>>
 class bst {
@@ -31,8 +30,8 @@ public:
     bool contains(const value_type&);
 
     /* iterators */
-    iterator begin() { return iterator(&data, min_index); }
-    iterator end()   { return iterator(&data, NO_ELEM); }
+    iterator begin() { return iterator(data, min_index); }
+    iterator end()   { return iterator(data, NO_ELEM); }
 
 protected:
     struct bst_node {
@@ -44,7 +43,7 @@ protected:
         int right_index;
     };
     Compare value_compare;
-    std::vector<bst_node*> data;
+    std::vector<bst_node> data;
     int max_index = NO_ELEM;
     int min_index = NO_ELEM;
 };

@@ -8,7 +8,7 @@
 #include <iterator>
 #include <vector>
 #include "bst.h"
-#define NO_ELEM -1
+#include "bst_utils.h"
 
 template<class ValTy, class Compare> class bst;
 
@@ -22,22 +22,22 @@ public:
     using pointer           = Val*;
     using reference         = const Val&;
 
-    bst_inorder_iterator(std::vector<typename bst<Val, Compare>::bst_node*> *d, int start_index) : data(d), current_index(start_index) {}
+    bst_inorder_iterator(std::vector<typename bst<Val, Compare>::bst_node> &data, int start_index) : data(data), current_index(start_index) {}
 
-    reference operator*() const { return (*data)[current_index]->value; }
-    pointer operator->() const { return (*data)[current_index].value; /* &(operator*()); */ }
+    reference operator*() const { return NODE_VALUE(data, current_index); }
+    pointer operator->() const { return &(operator*()); }
     bst_inorder_iterator& operator++() {
-        if ((*data)[current_index]->right_index != NO_ELEM) {
-            current_index = (*data)[current_index]->right_index;
-            while (current_index != NO_ELEM && (*data)[current_index]->left_index != NO_ELEM) {
-                current_index = (*data)[current_index]->left_index;
+        if (RIGHT_CHILDREN_INDEX(data, current_index) != NO_ELEM) {
+            current_index = RIGHT_CHILDREN_INDEX(data, current_index);
+            while (current_index != NO_ELEM && LEFT_CHILDREN_INDEX(data, current_index) != NO_ELEM) {
+                current_index = LEFT_CHILDREN_INDEX(data, current_index);
             }
         } else {
             int last_index = current_index;
-            current_index = (*data)[current_index]->parent_index;
-            while (current_index != NO_ELEM && last_index != (*data)[current_index]->left_index) {
+            current_index = PARENT_INDEX(data, current_index);
+            while (current_index != NO_ELEM && last_index != LEFT_CHILDREN_INDEX(data, current_index)) {
                 last_index = current_index;
-                current_index = (*data)[last_index]->parent_index;
+                current_index = PARENT_INDEX(data, current_index);
             }
         }
         return *this;
@@ -46,7 +46,7 @@ public:
     friend bool operator!= (const bst_inorder_iterator& a, const bst_inorder_iterator& b) { return a.current_index != b.current_index; };
 
 private:
-    std::vector<typename bst<Val, Compare>::bst_node*> *data;
+    std::vector<typename bst<Val, Compare>::bst_node> &data;
     int current_index;
 };
 

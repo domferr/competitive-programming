@@ -24,13 +24,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/bst.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/bst.tpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/bst_inorder_iterator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/unit_tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearchTree/bst_utils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree/bst.h" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/bst.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree/bst.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/bst.tpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinarySearchTree/bst_inorder_iterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/bst_inorder_iterator.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
@@ -197,7 +197,7 @@
       <workItem from="1635944625447" duration="3415000" />
       <workItem from="1635947475004" duration="7097000" />
       <workItem from="1636013363381" duration="29189000" />
-      <workItem from="1636100766025" duration="9608000" />
+      <workItem from="1636100766025" duration="14356000" />
     </task>
     <servers />
   </component>

@@ -24,14 +24,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LongestKGoodSegment/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LongestKGoodSegment/longestkgoodsegment.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LongestKGoodSegment/longestkgoodsegment.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LongestKGoodSegment/tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-    </list>
+    <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +198,7 @@
       <workItem from="1635944625447" duration="3415000" />
       <workItem from="1635947475004" duration="7097000" />
       <workItem from="1636013363381" duration="29189000" />
-      <workItem from="1636100766025" duration="18798000" />
+      <workItem from="1636100766025" duration="19197000" />
     </task>
     <servers />
   </component>

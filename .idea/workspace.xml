@@ -8,6 +8,7 @@
       <config projectName="competitive-programming" targetName="gmock" />
       <config projectName="competitive-programming" targetName="sliding_window_maximum_test" />
       <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
+      <config projectName="competitive-programming" targetName="longest_k_good_segment_test" />
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
       <config projectName="competitive-programming" targetName="gtest" />
       <config projectName="competitive-programming" targetName="bst_test" />
@@ -24,12 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BinarySearchTree/bst_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestKGoodSegment/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestKGoodSegment/longestkgoodsegment.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestKGoodSegment/longestkgoodsegment.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestKGoodSegment/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree/bst.h" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/bst.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree/bst.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/bst.tpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree/bst_inorder_iterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/bst_inorder_iterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.bst_test">
+  <component name="RunManager" selected="Google Test.longest_k_good_segment_test">
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -97,6 +98,12 @@
       </method>
     </configuration>
     <configuration name="long_term_problem_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="long_term_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="long_term_problem_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longest_k_good_segment_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="longest_k_good_segment_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="longest_k_good_segment_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -175,6 +182,7 @@
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CTest Application.All CTest" />
       <item itemvalue="Google Test.max_segment_intersections_test" />
+      <item itemvalue="Google Test.longest_k_good_segment_test" />
       <item itemvalue="Google Test.bst_test" />
       <item itemvalue="Google Test.next_larger_element_test" />
       <item itemvalue="Google Test.sliding_window_maximum_test" />
@@ -197,7 +205,7 @@
       <workItem from="1635944625447" duration="3415000" />
       <workItem from="1635947475004" duration="7097000" />
       <workItem from="1636013363381" duration="29189000" />
-      <workItem from="1636100766025" duration="14356000" />
+      <workItem from="1636100766025" duration="18798000" />
     </task>
     <servers />
   </component>

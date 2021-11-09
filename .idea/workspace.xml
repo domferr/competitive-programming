@@ -8,12 +8,13 @@
       <config projectName="competitive-programming" targetName="gmock" />
       <config projectName="competitive-programming" targetName="sliding_window_maximum_test" />
       <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
+      <config projectName="competitive-programming" targetName="fenwick_tree_test" />
       <config projectName="competitive-programming" targetName="longest_k_good_segment_test" />
-      <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
       <config projectName="competitive-programming" targetName="gtest" />
       <config projectName="competitive-programming" targetName="bst_test" />
-      <config projectName="competitive-programming" targetName="gmock_main" />
       <config projectName="competitive-programming" targetName="gtest_main" />
+      <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
+      <config projectName="competitive-programming" targetName="gmock_main" />
       <config projectName="competitive-programming" targetName="long_term_problem_test" />
       <config projectName="competitive-programming" targetName="next_larger_element_test" />
     </generated>
@@ -25,16 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FenwickTree/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FenwickTree/fenwicktree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FenwickTree/fenwicktree.tpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FenwickTree/unit_tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearchTree/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BinarySearchTree/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongTermProblem/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LongTermProblem/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongestKGoodSegment/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LongestKGoodSegment/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxSegmentIntersections/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxSegmentIntersections/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextLargerElement/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NextLargerElement/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlidingWindowMaximum/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SlidingWindowMaximum/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrappingRainWater/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TrappingRainWater/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +91,19 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.long_term_problem_test">
+  <component name="RunManager" selected="Google Test.fenwick_tree_test">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fenwick_tree_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="fenwick_tree_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="fenwick_tree_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -167,11 +170,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_segment_intersections_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="max_segment_intersections_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="max_segment_intersections_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="All CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -179,13 +177,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.max_segment_intersections_test" />
       <item itemvalue="CMake Application.gmock" />
       <item itemvalue="CMake Application.gmock_main" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CTest Application.All CTest" />
       <item itemvalue="Google Test.max_segment_intersections_test" />
+      <item itemvalue="Google Test.fenwick_tree_test" />
       <item itemvalue="Google Test.longest_k_good_segment_test" />
       <item itemvalue="Google Test.bst_test" />
       <item itemvalue="Google Test.next_larger_element_test" />
@@ -211,7 +209,7 @@
       <workItem from="1636013363381" duration="29189000" />
       <workItem from="1636100766025" duration="20459000" />
       <workItem from="1636405786462" duration="1386000" />
-      <workItem from="1636448183662" duration="2111000" />
+      <workItem from="1636448183662" duration="16812000" />
     </task>
     <servers />
   </component>

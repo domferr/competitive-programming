@@ -4,7 +4,7 @@ Each problem comes with a solution written in C++ and its test suite. Testing is
 
 ### Trapping Rain Water | [Solution](https://github.com/domferr/competitive-programming/tree/main/TrappingRainWater)
   
-  Given an array arr[] of N non-negative integers representing the height of blocks. If width of each block is 1, compute how much water can be trapped between the blocks during the rainy season. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/trapping-rain-water/0).\
+  Given an array arr[] of N non-negative integers representing the height of blocks. If width of each block is 1, compute how much water can be trapped between the blocks during the rainy season. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/trapping-rain-water/0).
   
 
 ### Sliding Window Maximum | [Solution](https://github.com/domferr/competitive-programming/tree/main/SlidingWindowMaximum)

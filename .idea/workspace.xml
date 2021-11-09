@@ -26,12 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FenwickTree/fenwicktree.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FenwickTree/fenwicktree.tpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FenwickTree/unit_tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FenwickTree/fenwicktree.h" beforeDir="false" afterPath="$PROJECT_DIR$/FenwickTree/fenwicktree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FenwickTree/fenwicktree.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/FenwickTree/fenwicktree.tpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FenwickTree/unit_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FenwickTree/unit_tests.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +207,7 @@
       <workItem from="1636013363381" duration="29189000" />
       <workItem from="1636100766025" duration="20459000" />
       <workItem from="1636405786462" duration="1386000" />
-      <workItem from="1636448183662" duration="16812000" />
+      <workItem from="1636448183662" duration="20557000" />
     </task>
     <servers />
   </component>

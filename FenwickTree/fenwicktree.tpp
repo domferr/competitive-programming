@@ -9,8 +9,9 @@
 #define RIGHT_SIBLING_INDEX(idx) (idx + (idx & -idx))
 #define IS_NOT_ROOT(idx) (idx != 0)
 
+template<class C>
 template<class It>
-fenwicktree::fenwicktree(It first, It last)  : data((last - first) + 1) {
+fenwicktree<C>::fenwicktree(It first, It last) : data((last - first) + 1) {
     size_t idx = 1;
     for (auto it = first; it != last; ++it) {
         data[idx] = *it;
@@ -22,35 +23,42 @@ fenwicktree::fenwicktree(It first, It last)  : data((last - first) + 1) {
     }
 }
 
-int fenwicktree::sum(size_t index) {
-    int s = 0;
+template<class C>
+C fenwicktree<C>::sum(size_t index) {
     index = index + 1;
+    C s = data[index]; // just a trick to avoid initializing s to 0
+    index = PARENT_INDEX(index);
     while(IS_NOT_ROOT(index)) {
         s += data[index];
         index = PARENT_INDEX(index);
     }
+
     return s;
 }
 
-int fenwicktree::rangesum(size_t start_idx, size_t end_idx) {
+template<class C>
+C fenwicktree<C>::rangesum(size_t start_idx, size_t end_idx) {
     if (start_idx == 0)
         return sum(end_idx);
     // here start_idx - 1 is >= 0
     return sum(end_idx) - sum(start_idx - 1);
 }
 
-void fenwicktree::add(size_t index, int value) {
+template<class C>
+void fenwicktree<C>::add(size_t index, C value) {
     while (index <= data.size()) {
         data[index] += value;
         index = RIGHT_SIBLING_INDEX(index);
     }
 }
 
-size_t fenwicktree::size() {
+template<class C>
+size_t fenwicktree<C>::size() {
     return data.size() - 1;
 }
 
-int fenwicktree::operator[](size_t index) {
+template<class C>
+C fenwicktree<C>::operator[](size_t index) {
     if (index == 0)
         return sum(index);
     return sum(index) - sum(index - 1);

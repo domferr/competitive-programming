@@ -16,14 +16,15 @@ public:
     /* Constructors */
     fenwicktree() = default;
     explicit fenwicktree(size_t n) : data(n+1) {}
-    template<class It> fenwicktree(It, It);
-    fenwicktree(std::initializer_list<C> list) : fenwicktree(list.begin(), list.end()) {}
-    explicit fenwicktree(const std::vector<C>& vec) : fenwicktree(vec.begin(), vec.end()) {}
+    template<class It> fenwicktree(It, It, size_t);
+    fenwicktree(std::initializer_list<C> list) : fenwicktree(list.begin(), list.end(), list.size()) {}
+    explicit fenwicktree(const std::vector<C>& vec) : fenwicktree(vec.begin(), vec.end(), vec.size()) {}
 
     /* Methods */
     C sum(size_t);
     C rangesum(size_t, size_t);
     void add(size_t, C);
+    void update(size_t, C);
     size_t size();
 
     /* Operators */

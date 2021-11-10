@@ -11,7 +11,7 @@
 
 template<class C>
 template<class It>
-fenwicktree<C>::fenwicktree(It first, It last) : data((last - first) + 1) {
+fenwicktree<C>::fenwicktree(It first, It last, size_t size) : data(size + 1) {
     size_t idx = 1;
     for (auto it = first; it != last; ++it) {
         data[idx] = *it;
@@ -46,10 +46,18 @@ C fenwicktree<C>::rangesum(size_t start_idx, size_t end_idx) {
 
 template<class C>
 void fenwicktree<C>::add(size_t index, C value) {
+    index = index + 1;
     while (index <= data.size()) {
         data[index] += value;
         index = RIGHT_SIBLING_INDEX(index);
     }
+}
+
+
+template<class C>
+void fenwicktree<C>::update(size_t index, C value) {
+    C old_val = operator[](index);
+    add(index, value - old_val);
 }
 
 template<class C>

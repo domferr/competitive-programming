@@ -54,7 +54,7 @@ C fenwicktree<C>::rangesum(size_t start_idx, size_t end_idx) {
 template<class C>
 void fenwicktree<C>::add(size_t index, C value) {
     index = index + 1;
-    while (index <= data.size()) {
+    while (index < data.size()) {
         data[index] += value;
         index = RIGHT_SIBLING_INDEX(index);
     }

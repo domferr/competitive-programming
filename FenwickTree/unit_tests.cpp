@@ -25,6 +25,14 @@ TEST(FenwickTreeTestOriginalValue, BasicAssertions) {
     }
 }
 
+TEST(FenwickTreeTestStartingValueConstructor, BasicAssertions) {
+    fenwicktree<int> ft ( 4, 17 );
+    EXPECT_EQ(ft.size(), 4);
+    for (int i = 0; i < ft.size(); ++i) {
+        EXPECT_EQ(ft[i], 17);
+    }
+}
+
 TEST(FenwickTreeTestSum, BasicAssertions) {
     fenwicktree<int> ft { 3, 2, -1, 5, 7, -3, 2, 1 };
     std::vector<int> sums {3,5,4,9,16,13,15,16};

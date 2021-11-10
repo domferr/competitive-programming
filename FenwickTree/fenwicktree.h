@@ -16,6 +16,7 @@ public:
     /* Constructors */
     fenwicktree() = default;
     explicit fenwicktree(size_t n) : data(n+1) {}
+    fenwicktree(size_t size, C starting_value);
     template<class It> fenwicktree(It, It, size_t);
     fenwicktree(std::initializer_list<C> list) : fenwicktree(list.begin(), list.end(), list.size()) {}
     explicit fenwicktree(const std::vector<C>& vec) : fenwicktree(vec.begin(), vec.end(), vec.size()) {}

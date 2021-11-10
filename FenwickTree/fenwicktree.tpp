@@ -24,6 +24,13 @@ fenwicktree<C>::fenwicktree(It first, It last, size_t size) : data(size + 1) {
 }
 
 template<class C>
+fenwicktree<C>::fenwicktree(size_t size, C starting_value) : data(size + 1, starting_value) {
+    for (size_t idx = 1; RIGHT_SIBLING_INDEX(idx) < data.size(); ++idx) {
+        data[RIGHT_SIBLING_INDEX(idx)] += data[idx];
+    }
+}
+
+template<class C>
 C fenwicktree<C>::sum(size_t index) {
     index = index + 1;
     C s = data[index]; // just a trick to avoid initializing s to 0

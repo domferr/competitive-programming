@@ -16,6 +16,7 @@
       <config projectName="competitive-programming" targetName="gtest_main" />
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
       <config projectName="competitive-programming" targetName="gmock_main" />
+      <config projectName="competitive-programming" targetName="counting_inversions_test" />
       <config projectName="competitive-programming" targetName="long_term_problem_test" />
       <config projectName="competitive-programming" targetName="next_larger_element_test" />
     </generated>
@@ -27,11 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NestedSegments/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NestedSegments/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NestedSegments/nestedsegments.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NestedSegments/nestedsegments.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NestedSegments/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountingInversions/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountingInversions/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountingInversions/countinginversions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountingInversions/countinginversions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CountingInversions/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FenwickTree/fenwicktree.h" beforeDir="false" afterPath="$PROJECT_DIR$/FenwickTree/fenwicktree.h" afterDir="false" />
@@ -98,13 +99,19 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.nested_segments_test">
+  <component name="RunManager" selected="Google Test.fenwick_tree_test">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="counting_inversions_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="counting_inversions_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="counting_inversions_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -195,6 +202,7 @@
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CTest Application.All CTest" />
+      <item itemvalue="Google Test.counting_inversions_test" />
       <item itemvalue="Google Test.max_segment_intersections_test" />
       <item itemvalue="Google Test.nested_segments_test" />
       <item itemvalue="Google Test.fenwick_tree_test" />
@@ -223,7 +231,7 @@
       <workItem from="1636013363381" duration="29189000" />
       <workItem from="1636100766025" duration="20459000" />
       <workItem from="1636405786462" duration="1386000" />
-      <workItem from="1636448183662" duration="41325000" />
+      <workItem from="1636448183662" duration="44378000" />
     </task>
     <servers />
   </component>

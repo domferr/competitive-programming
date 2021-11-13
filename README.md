@@ -1,6 +1,6 @@
 # Competitive Programming and Contests
 
-Each problem comes with a solution written in C++ and its test suite. Testing is done by using the [GoogleTest](https://github.com/google/googletest) framework.
+Each problem comes with a solution written in C++ and a test suite. Testing is done by using the [GoogleTest](https://github.com/google/googletest) framework.
 
 ## Problems
 
@@ -37,6 +37,17 @@ if a[i] > a[j] and i < j. Problem available also on [GeeksForGeeks](https://www.
 
 ## Data structures
 
-#### C++ Binary Search Tree container | [Code](https://github.com/domferr/competitive-programming/tree/main/BinarySearchTree)
+#### Binary Search Tree | [Code](https://github.com/domferr/competitive-programming/tree/main/BinarySearchTree)
 
-#### C++ Fenwick Tree | [Code](https://github.com/domferr/competitive-programming/tree/main/FenwickTree)
+The tree is stored as an array. The siblings of a node are easily got by just computing some bit arithmetics.
+
+#### Fenwick Tree (or Binary Indexed Tree) | [Code](https://github.com/domferr/competitive-programming/tree/main/FenwickTree)
+
+The tree is stored as an array. Each node knows its value and the positions of the right and left children in the
+array.
+
+#### Segment Tree | [Code](https://github.com/domferr/competitive-programming/tree/main/SegmentTree)
+
+The tree is stored as a heap. It is also left balanced, which means that the original values are leaves and can be 
+accessed with constant time while the time complexity of the other operations have the time complexity that you expect 
+from a segment tree. 

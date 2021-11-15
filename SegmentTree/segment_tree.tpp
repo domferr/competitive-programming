@@ -22,16 +22,13 @@ C segment_tree<C>::build(size_t curr_idx, range curr_range, size_t max_seg_end) 
     range left_sub_range = LEFT_SUB_RANGE(curr_range);
     range right_sub_range = RIGHT_SUB_RANGE(curr_range);
 
-    //std::cout << "( " << curr_range.start << ", " << curr_range.end << " )" << std::endl;
     if (left_node_idx < arr.size() && right_node_idx < arr.size()) {
         if (right_sub_range.start > max_seg_end) { // prune right subtree. just go left
             arr[curr_idx] = build(left_node_idx, left_sub_range, max_seg_end);
-            //std::cout << "l  ( " << curr_range.start << ", " << curr_range.end << " ) = " << arr[curr_idx] << std::endl;
         } else {
             C left = build(left_node_idx, left_sub_range, max_seg_end);
             C right = build(right_node_idx, right_sub_range, max_seg_end);
             arr[curr_idx] = left + right;
-            //std::cout << "lr ( " << curr_range.start << ", " << curr_range.end << " ) = " << arr[curr_idx] << std::endl;
         }
     }
 

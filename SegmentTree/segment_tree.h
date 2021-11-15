@@ -26,10 +26,14 @@ public:
     C operator[](size_t);
 
 private:
-    std::vector<value_type> heap;
+    std::vector<value_type> arr;
     size_t max_segment_end; // needed to left balance the tree
-    C recursive_sum(size_t, size_t, size_t, size_t, size_t);
-    C rec_constr(size_t, size_t, size_t, size_t);
+    struct range {
+        size_t start; size_t end;
+        range(size_t s, size_t e) : start(s), end(e) {}
+    };
+    C recursive_sum(size_t, range, range);
+    C build(size_t, range, size_t);
 };
 
 #include "segment_tree.tpp"

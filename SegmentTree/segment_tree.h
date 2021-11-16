@@ -27,13 +27,12 @@ public:
 
 private:
     std::vector<value_type> arr;
-    size_t max_segment_end; // needed to left balance the tree
     struct range {
-        size_t start; size_t end;
         range(size_t s, size_t e) : start(s), end(e) {}
+        size_t start; size_t end;
     };
+    template<class It> C build(size_t, range, It);
     C recursive_sum(size_t, range, range);
-    C build(size_t, range, size_t);
 };
 
 #include "segment_tree.tpp"

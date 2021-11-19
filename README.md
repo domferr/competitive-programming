@@ -54,6 +54,14 @@ Given a rod of length n inches and an array of prices that includes prices of al
 Determine the maximum value obtainable by cutting up the rod and selling the pieces. Problem available also
 on [GeeksForGeeks](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/).
 
+#### House Robber | [Solution](https://github.com/domferr/competitive-programming/tree/main/HouseRobber)
+
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, 
+the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and 
+it will automatically contact the police if two adjacent houses were broken into on the same night. Given an integer 
+array representing the amount of money of each house, return the maximum amount of money you can rob tonight without 
+alerting the police. Problem available also on [LeetCode](https://leetcode.com/problems/house-robber/).
+
 ## Data structures
 
 #### Binary Search Tree | [Source code](https://github.com/domferr/competitive-programming/tree/main/BinarySearchTree)

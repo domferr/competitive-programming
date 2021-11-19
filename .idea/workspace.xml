@@ -13,6 +13,7 @@
       <config projectName="competitive-programming" targetName="gtest" />
       <config projectName="competitive-programming" targetName="nested_segments_test" />
       <config projectName="competitive-programming" targetName="bst_test" />
+      <config projectName="competitive-programming" targetName="house_robber_test" />
       <config projectName="competitive-programming" targetName="gtest_main" />
       <config projectName="competitive-programming" targetName="rod_cutting_test" />
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
@@ -30,11 +31,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RodCutting/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RodCutting/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RodCutting/rodcutting.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RodCutting/rodcutting.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RodCutting/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HouseRobber/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HouseRobber/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HouseRobber/houserobber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HouseRobber/houserobber.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HouseRobber/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -65,9 +66,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="OCResolveContextSettings">
-    <option name="configuration" value="0-Debug-rod_cutting_test" />
   </component>
   <component name="ProjectId" id="208SQVCRsaAyWUcNO5nBajVIhdv" />
   <component name="ProjectLevelVcsManager">
@@ -101,7 +99,7 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.rod_cutting_test">
+  <component name="RunManager" selected="Google Test.house_robber_test">
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -115,6 +113,12 @@
       </method>
     </configuration>
     <configuration name="fenwick_tree_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="fenwick_tree_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="fenwick_tree_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="house_robber_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="house_robber_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="house_robber_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -221,6 +225,7 @@
       <item itemvalue="Google Test.max_segment_intersections_test" />
       <item itemvalue="Google Test.nested_segments_test" />
       <item itemvalue="Google Test.fenwick_tree_test" />
+      <item itemvalue="Google Test.house_robber_test" />
       <item itemvalue="Google Test.longest_k_good_segment_test" />
       <item itemvalue="Google Test.bst_test" />
       <item itemvalue="Google Test.next_larger_element_test" />
@@ -252,7 +257,7 @@
       <workItem from="1636708215560" duration="37221000" />
       <workItem from="1636838153317" duration="880000" />
       <workItem from="1636987087362" duration="19269000" />
-      <workItem from="1637328502964" duration="5264000" />
+      <workItem from="1637328502964" duration="8207000" />
     </task>
     <servers />
   </component>

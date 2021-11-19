@@ -48,6 +48,12 @@ from being sorted. If the array is already sorted, then the inversion count is 0
 the reverse order, the inversion count is the maximum. Formally speaking, two elements a[i] and a[j] form an inversion
 if a[i] > a[j] and i < j. Problem available also on [GeeksForGeeks](https://www.geeksforgeeks.org/counting-inversions/).
 
+#### Rod Cutting | [Solution](https://github.com/domferr/competitive-programming/tree/main/RodCutting)
+
+Given a rod of length n inches and an array of prices that includes prices of all pieces of size smaller than n.
+Determine the maximum value obtainable by cutting up the rod and selling the pieces. Problem available also
+on [GeeksForGeeks](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/).
+
 ## Data structures
 
 #### Binary Search Tree | [Source code](https://github.com/domferr/competitive-programming/tree/main/BinarySearchTree)
@@ -61,5 +67,5 @@ array.
 
 #### Segment Tree | [Source code](https://github.com/domferr/competitive-programming/tree/main/SegmentTree)
 
-The tree is stored as an array in the order of Euler tour traversal. It is memory efficient because only (2 * N) - 1 nodes
-are stored, where N is the number of original elements.
+The tree is stored as an array in the order of Euler tour traversal. It is memory efficient because only (2 * N) - 1 
+nodes are stored, where N is the number of original elements.

@@ -16,6 +16,11 @@ Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/prob
 Given an array arr[] of N elements and integer K, find the maximum for each and every contiguous subarray (window) of 
 size K. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0).
 
+#### Missing Number in Array | [Solution](https://github.com/domferr/competitive-programming/tree/main/MissingNumber)
+
+Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing 
+element. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1).
+
 #### Next Larger Element | [Solution](https://github.com/domferr/competitive-programming/tree/main/NextLargerElement)
 
 Given an array arr[] of size N having distinct elements, the task is to find the next greater element for each element 

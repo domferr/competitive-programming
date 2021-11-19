@@ -19,6 +19,7 @@ include(GoogleTest)
 
 add_subdirectory(TrappingRainWater)
 add_subdirectory(SlidingWindowMaximum)
+add_subdirectory(MissingNumber)
 add_subdirectory(NextLargerElement)
 add_subdirectory(LongTermProblem)
 add_subdirectory(MaxSegmentIntersections)

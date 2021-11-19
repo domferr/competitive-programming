@@ -14,6 +14,7 @@
       <config projectName="competitive-programming" targetName="nested_segments_test" />
       <config projectName="competitive-programming" targetName="bst_test" />
       <config projectName="competitive-programming" targetName="house_robber_test" />
+      <config projectName="competitive-programming" targetName="missing_number_test" />
       <config projectName="competitive-programming" targetName="gtest_main" />
       <config projectName="competitive-programming" targetName="rod_cutting_test" />
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
@@ -31,14 +32,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HouseRobber/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HouseRobber/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HouseRobber/houserobber.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HouseRobber/houserobber.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HouseRobber/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MissingNumber/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MissingNumber/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MissingNumber/missingnumber.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MissingNumber/missingnumber.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MissingNumber/tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_cook_book.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_cook_book.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_for_dummies.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_for_dummies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/primer.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/primer.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googlemock/include/gmock/gmock-actions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-death-test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-death-test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-port.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googletest/src/gtest-port.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googletest/src/gtest.cc" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/googletest/src/gtest.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +81,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="208SQVCRsaAyWUcNO5nBajVIhdv" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -99,7 +112,12 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.house_robber_test">
+  <component name="RunManager" selected="Google Test.missing_number_test">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -142,6 +160,12 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="missing_number_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="missing_number_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="missing_number_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="nested_segments_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="nested_segments_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="nested_segments_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -176,11 +200,6 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
@@ -223,6 +242,7 @@
       <item itemvalue="Google Test.counting_inversions_test" />
       <item itemvalue="Google Test.segment_tree_test" />
       <item itemvalue="Google Test.max_segment_intersections_test" />
+      <item itemvalue="Google Test.missing_number_test" />
       <item itemvalue="Google Test.nested_segments_test" />
       <item itemvalue="Google Test.fenwick_tree_test" />
       <item itemvalue="Google Test.house_robber_test" />
@@ -258,6 +278,7 @@
       <workItem from="1636838153317" duration="880000" />
       <workItem from="1636987087362" duration="19269000" />
       <workItem from="1637328502964" duration="8207000" />
+      <workItem from="1637351352248" duration="1382000" />
     </task>
     <servers />
   </component>

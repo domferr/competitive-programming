@@ -12,6 +12,7 @@
       <config projectName="competitive-programming" targetName="longest_k_good_segment_test" />
       <config projectName="competitive-programming" targetName="gtest" />
       <config projectName="competitive-programming" targetName="nested_segments_test" />
+      <config projectName="competitive-programming" targetName="kadanes_algorithm_test" />
       <config projectName="competitive-programming" targetName="bst_test" />
       <config projectName="competitive-programming" targetName="house_robber_test" />
       <config projectName="competitive-programming" targetName="missing_number_test" />
@@ -32,12 +33,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MissingNumber/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MissingNumber/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MissingNumber/missingnumber.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MissingNumber/missingnumber.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MissingNumber/tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/kadanesalgorithm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/kadanesalgorithm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -112,7 +112,7 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.missing_number_test">
+  <component name="RunManager" selected="Google Test.kadanes_algorithm_test">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -137,6 +137,12 @@
       </method>
     </configuration>
     <configuration name="house_robber_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="house_robber_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="house_robber_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kadanes_algorithm_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="kadanes_algorithm_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="kadanes_algorithm_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -246,6 +252,7 @@
       <item itemvalue="Google Test.nested_segments_test" />
       <item itemvalue="Google Test.fenwick_tree_test" />
       <item itemvalue="Google Test.house_robber_test" />
+      <item itemvalue="Google Test.kadanes_algorithm_test" />
       <item itemvalue="Google Test.longest_k_good_segment_test" />
       <item itemvalue="Google Test.bst_test" />
       <item itemvalue="Google Test.next_larger_element_test" />
@@ -278,7 +285,7 @@
       <workItem from="1636838153317" duration="880000" />
       <workItem from="1636987087362" duration="19269000" />
       <workItem from="1637328502964" duration="8207000" />
-      <workItem from="1637351352248" duration="1382000" />
+      <workItem from="1637351352248" duration="2611000" />
     </task>
     <servers />
   </component>

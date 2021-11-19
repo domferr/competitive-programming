@@ -7,23 +7,28 @@ the [GoogleTest](https://github.com/google/googletest) framework.
 
 #### Trapping Rain Water | [Solution](https://github.com/domferr/competitive-programming/tree/main/TrappingRainWater)
   
-Given an array arr[] of N non-negative integers representing the height of blocks. If width of each block is 1, compute 
+Given an array of N non-negative integers representing the height of blocks. If width of each block is 1, compute 
 how much water can be trapped between the blocks during the rainy season. 
 Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/trapping-rain-water/0).
 
 #### Sliding Window Maximum | [Solution](https://github.com/domferr/competitive-programming/tree/main/SlidingWindowMaximum)
 
-Given an array arr[] of N elements and integer K, find the maximum for each and every contiguous subarray (window) of 
+Given an array of N elements and integer K, find the maximum for each and every contiguous subarray (window) of 
 size K. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0).
 
 #### Missing Number in Array | [Solution](https://github.com/domferr/competitive-programming/tree/main/MissingNumber)
 
-Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing 
+Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing
 element. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1).
+
+#### Kadane's Algorithm | [Solution](https://github.com/domferr/competitive-programming/tree/main/KadanesAlgorithm)
+
+Given an array of N integers. Find the contiguous sub-array (containing at least one number) which has the maximum 
+sum and return its sum. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1).
 
 #### Next Larger Element | [Solution](https://github.com/domferr/competitive-programming/tree/main/NextLargerElement)
 
-Given an array arr[] of size N having distinct elements, the task is to find the next greater element for each element 
+Given an array of size N having distinct elements, the task is to find the next greater element for each element 
 of the array in order of their appearance in the array. Next greater element of an element in the array is the nearest 
 element on the right which is greater than the current element. If there does not exist next greater of current element, 
 then next greater element for current element is -1. For example, next greater of the last element is always -1. 
@@ -31,7 +36,7 @@ Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/prob
 
 #### Max Segment Intersections | [Solution](https://github.com/domferr/competitive-programming/tree/main/MaxSegmentIntersections)
 
-Given an array arr[] consisting of N pairs of type {L, R}, each representing a segment on the X-axis, the task is to 
+Given an array consisting of N pairs of type {L, R}, each representing a segment on the X-axis, the task is to 
 find the maximum number of intersections a segment has with other segments. Problem available also 
 on [GeeksForGeeks](https://www.geeksforgeeks.org/maximum-number-of-intersections-possible-for-any-of-the-n-given-segments/).
 

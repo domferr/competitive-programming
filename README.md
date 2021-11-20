@@ -54,6 +54,11 @@ The array a with n integers is given. Let's call the sequence of one or more con
 Also let's call the segment k-good if it contains no more than k different values. Find any longest k-good segment. 
 Problem available also on [CodeForces](https://codeforces.com/contest/616/problem/D?locale=en).
 
+#### Maximum Path Sum | [Solution](https://github.com/domferr/competitive-programming/tree/main/MaximumPathSum)
+
+Given a binary tree in which each node element contains a number. Find the maximum possible path sum from one leaf node
+to another leaf node. Problem available also on [GeekForGeeks](http://practice.geeksforgeeks.org/problems/maximum-path-sum/1).
+
 #### Nested Segments | [Solution](https://github.com/domferr/competitive-programming/tree/main/NestedSegments)
 
 You are given n segments on a line. There are no ends of some segments that coincide. For each segment find the number 

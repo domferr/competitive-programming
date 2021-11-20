@@ -7,6 +7,7 @@
     <generated>
       <config projectName="competitive-programming" targetName="gmock" />
       <config projectName="competitive-programming" targetName="towers_test" />
+      <config projectName="competitive-programming" targetName="maximum_path_sum_test" />
       <config projectName="competitive-programming" targetName="sliding_window_maximum_test" />
       <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
       <config projectName="competitive-programming" targetName="fenwick_tree_test" />
@@ -34,11 +35,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Towers/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Towers/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Towers/tests.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Towers/towers.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Towers/towers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaximumPathSum/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaximumPathSum/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaximumPathSum/maximum_path_sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaximumPathSum/maximum_path_sum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaximumPathSum/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -113,7 +114,7 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.towers_test">
+  <component name="RunManager" selected="Google Test.maximum_path_sum_test">
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -157,6 +158,12 @@
       </method>
     </configuration>
     <configuration name="max_segment_intersections_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="max_segment_intersections_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="max_segment_intersections_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maximum_path_sum_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="maximum_path_sum_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="maximum_path_sum_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -268,6 +275,7 @@
       <item itemvalue="Google Test.sliding_window_maximum_test" />
       <item itemvalue="Google Test.trapping_rain_water_test" />
       <item itemvalue="Google Test.long_term_problem_test" />
+      <item itemvalue="Google Test.maximum_path_sum_test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -294,7 +302,7 @@
       <workItem from="1636987087362" duration="19269000" />
       <workItem from="1637328502964" duration="8207000" />
       <workItem from="1637351352248" duration="3403000" />
-      <workItem from="1637396042201" duration="1063000" />
+      <workItem from="1637396042201" duration="9535000" />
     </task>
     <servers />
   </component>

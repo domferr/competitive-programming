@@ -1,7 +1,8 @@
 # Competitive Programming and Contests
 
 Each problem comes with a solution written in C++ and a test suite. Testing is done by using 
-the [GoogleTest](https://github.com/google/googletest) framework.
+the [GoogleTest](https://github.com/google/googletest) framework. The following is the list 
+of all the problems together with a link to my solution.
 
 ## Problems
 

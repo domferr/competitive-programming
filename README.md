@@ -26,6 +26,13 @@ element. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks
 Given an array of N integers. Find the contiguous sub-array (containing at least one number) which has the maximum 
 sum and return its sum. Problem available also on [GeeksForGeeks](http://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1).
 
+#### Towers | [Solution](https://github.com/domferr/competitive-programming/tree/main/Towers)
+
+Little Vasya has received a young builder’s kit. The kit consists of several wooden bars, the lengths of all of them 
+are known. The bars can be put one on the top of the other if their lengths are the same. Vasya wants to construct the 
+minimal number of towers from the bars. Help Vasya to use the bars in the best way possible. Problem available 
+also on [CodeForces](http://codeforces.com/problemset/problem/37/A?locale=en).
+
 #### Next Larger Element | [Solution](https://github.com/domferr/competitive-programming/tree/main/NextLargerElement)
 
 Given an array of size N having distinct elements, the task is to find the next greater element for each element 

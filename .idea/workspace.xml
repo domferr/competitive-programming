@@ -6,6 +6,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="competitive-programming" targetName="gmock" />
+      <config projectName="competitive-programming" targetName="towers_test" />
       <config projectName="competitive-programming" targetName="sliding_window_maximum_test" />
       <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
       <config projectName="competitive-programming" targetName="fenwick_tree_test" />
@@ -33,11 +34,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/kadanesalgorithm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/kadanesalgorithm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Towers/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Towers/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Towers/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Towers/towers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Towers/towers.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -112,12 +113,7 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.kadanes_algorithm_test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Google Test.towers_test">
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -202,10 +198,21 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="towers_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="towers_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="towers_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="trapping_rain_water_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="trapping_rain_water_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="trapping_rain_water_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
@@ -246,6 +253,7 @@
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CTest Application.All CTest" />
       <item itemvalue="Google Test.counting_inversions_test" />
+      <item itemvalue="Google Test.towers_test" />
       <item itemvalue="Google Test.segment_tree_test" />
       <item itemvalue="Google Test.max_segment_intersections_test" />
       <item itemvalue="Google Test.missing_number_test" />
@@ -285,7 +293,8 @@
       <workItem from="1636838153317" duration="880000" />
       <workItem from="1636987087362" duration="19269000" />
       <workItem from="1637328502964" duration="8207000" />
-      <workItem from="1637351352248" duration="2611000" />
+      <workItem from="1637351352248" duration="3403000" />
+      <workItem from="1637396042201" duration="1063000" />
     </task>
     <servers />
   </component>

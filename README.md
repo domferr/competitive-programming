@@ -85,6 +85,11 @@ it will automatically contact the police if two adjacent houses were broken into
 array representing the amount of money of each house, return the maximum amount of money you can rob tonight without 
 alerting the police. Problem available also on [LeetCode](https://leetcode.com/problems/house-robber/).
 
+#### Minimum Cost Path | [Solution](https://github.com/domferr/competitive-programming/tree/main/MinimumCostPath)
+
+We are given a matrix M of n * m integers. The goal is to find the minimum cost path to move from the top-left 
+corner to the bottom-right corner by moving only down or to right.
+
 ## Data structures
 
 #### Binary Search Tree | [Source code](https://github.com/domferr/competitive-programming/tree/main/BinarySearchTree)

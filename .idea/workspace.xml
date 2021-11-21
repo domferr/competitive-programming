@@ -17,6 +17,7 @@
       <config projectName="competitive-programming" targetName="kadanes_algorithm_test" />
       <config projectName="competitive-programming" targetName="bst_test" />
       <config projectName="competitive-programming" targetName="house_robber_test" />
+      <config projectName="competitive-programming" targetName="minimum_cost_path_test" />
       <config projectName="competitive-programming" targetName="missing_number_test" />
       <config projectName="competitive-programming" targetName="gtest_main" />
       <config projectName="competitive-programming" targetName="rod_cutting_test" />
@@ -35,11 +36,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MaximumPathSum/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaximumPathSum/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaximumPathSum/maximum_path_sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaximumPathSum/maximum_path_sum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaximumPathSum/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MinimumCostPath/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MinimumCostPath/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MinimumCostPath/minimum_cost_path.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MinimumCostPath/minimum_cost_path.tpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MinimumCostPath/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -114,7 +115,12 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.maximum_path_sum_test">
+  <component name="RunManager" selected="Google Test.minimum_cost_path_test">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -169,6 +175,12 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="minimum_cost_path_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="minimum_cost_path_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="minimum_cost_path_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="missing_number_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="missing_number_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="missing_number_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -217,11 +229,6 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -263,6 +270,7 @@
       <item itemvalue="Google Test.towers_test" />
       <item itemvalue="Google Test.segment_tree_test" />
       <item itemvalue="Google Test.max_segment_intersections_test" />
+      <item itemvalue="Google Test.minimum_cost_path_test" />
       <item itemvalue="Google Test.missing_number_test" />
       <item itemvalue="Google Test.nested_segments_test" />
       <item itemvalue="Google Test.fenwick_tree_test" />
@@ -302,7 +310,8 @@
       <workItem from="1636987087362" duration="19269000" />
       <workItem from="1637328502964" duration="8207000" />
       <workItem from="1637351352248" duration="3403000" />
-      <workItem from="1637396042201" duration="9535000" />
+      <workItem from="1637396042201" duration="9611000" />
+      <workItem from="1637492223193" duration="2937000" />
     </task>
     <servers />
   </component>

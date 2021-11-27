@@ -1,0 +1,10 @@
+//
+// Created by Domenico on 27/11/2021.
+//
+
+#ifndef COMPETITIVE_PROGRAMMING_TILING_PROBLEM_H
+#define COMPETITIVE_PROGRAMMING_TILING_PROBLEM_H
+
+int tiling_problem(int n);
+
+#endif //COMPETITIVE_PROGRAMMING_TILING_PROBLEM_H

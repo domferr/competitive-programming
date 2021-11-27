@@ -5,6 +5,16 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="competitive-programming" targetName="nested_segments_test" />
+      <config projectName="competitive-programming" targetName="kadanes_algorithm_test" />
+      <config projectName="competitive-programming" targetName="tiling_problem_test" />
+      <config projectName="competitive-programming" targetName="house_robber_test" />
+      <config projectName="competitive-programming" targetName="minimum_cost_path_test" />
+      <config projectName="competitive-programming" targetName="segment_tree_test" />
+      <config projectName="competitive-programming" targetName="gmock_main" />
+      <config projectName="competitive-programming" targetName="01knapsack_test" />
+      <config projectName="competitive-programming" targetName="counting_inversions_test" />
+      <config projectName="competitive-programming" targetName="next_larger_element_test" />
       <config projectName="competitive-programming" targetName="gmock" />
       <config projectName="competitive-programming" targetName="towers_test" />
       <config projectName="competitive-programming" targetName="maximum_path_sum_test" />
@@ -13,21 +23,12 @@
       <config projectName="competitive-programming" targetName="fenwick_tree_test" />
       <config projectName="competitive-programming" targetName="longest_k_good_segment_test" />
       <config projectName="competitive-programming" targetName="gtest" />
-      <config projectName="competitive-programming" targetName="nested_segments_test" />
-      <config projectName="competitive-programming" targetName="kadanes_algorithm_test" />
       <config projectName="competitive-programming" targetName="bst_test" />
-      <config projectName="competitive-programming" targetName="house_robber_test" />
-      <config projectName="competitive-programming" targetName="minimum_cost_path_test" />
       <config projectName="competitive-programming" targetName="missing_number_test" />
       <config projectName="competitive-programming" targetName="gtest_main" />
       <config projectName="competitive-programming" targetName="rod_cutting_test" />
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
-      <config projectName="competitive-programming" targetName="segment_tree_test" />
-      <config projectName="competitive-programming" targetName="gmock_main" />
-      <config projectName="competitive-programming" targetName="01knapsack_test" />
-      <config projectName="competitive-programming" targetName="counting_inversions_test" />
       <config projectName="competitive-programming" targetName="long_term_problem_test" />
-      <config projectName="competitive-programming" targetName="next_larger_element_test" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -37,12 +38,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/01Knapsack/01knapsack.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01Knapsack/01knapsack.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01Knapsack/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01Knapsack/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TilingProblem/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TilingProblem/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TilingProblem/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TilingProblem/tiling_problem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TilingProblem/tiling_problem.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_cook_book.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_cook_book.md" afterDir="false" />
@@ -114,7 +117,7 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.01knapsack_test">
+  <component name="RunManager" selected="Google Test.tiling_problem_test">
     <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -217,6 +220,12 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tiling_problem_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="tiling_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="tiling_problem_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="towers_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="towers_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="towers_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -272,6 +281,7 @@
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CTest Application.All CTest" />
       <item itemvalue="Google Test.counting_inversions_test" />
+      <item itemvalue="Google Test.tiling_problem_test" />
       <item itemvalue="Google Test.towers_test" />
       <item itemvalue="Google Test.segment_tree_test" />
       <item itemvalue="Google Test.max_segment_intersections_test" />
@@ -318,7 +328,7 @@
       <workItem from="1637351352248" duration="3403000" />
       <workItem from="1637396042201" duration="9611000" />
       <workItem from="1637492223193" duration="3018000" />
-      <workItem from="1638006692223" duration="5875000" />
+      <workItem from="1638006692223" duration="7919000" />
     </task>
     <servers />
   </component>

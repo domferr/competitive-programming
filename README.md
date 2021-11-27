@@ -32,7 +32,7 @@ sum and return its sum. Problem available also on [GeeksForGeeks](http://practic
 Little Vasya has received a young builder’s kit. The kit consists of several wooden bars, the lengths of all of them 
 are known. The bars can be put one on the top of the other if their lengths are the same. Vasya wants to construct the 
 minimal number of towers from the bars. Help Vasya to use the bars in the best way possible. Problem available 
-also on [CodeForces](http://codeforces.com/problemset/problem/37/A?locale=en).
+also on [Codeforces](http://codeforces.com/problemset/problem/37/A?locale=en).
 
 #### Next Larger Element | [Solution](https://github.com/domferr/competitive-programming/tree/main/NextLargerElement)
 
@@ -52,7 +52,7 @@ on [GeeksForGeeks](https://www.geeksforgeeks.org/maximum-number-of-intersections
 
 The array a with n integers is given. Let's call the sequence of one or more consecutive elements in a segment. 
 Also let's call the segment k-good if it contains no more than k different values. Find any longest k-good segment. 
-Problem available also on [CodeForces](https://codeforces.com/contest/616/problem/D?locale=en).
+Problem available also on [Codeforces](https://codeforces.com/contest/616/problem/D?locale=en).
 
 #### Maximum Path Sum | [Solution](https://github.com/domferr/competitive-programming/tree/main/MaximumPathSum)
 
@@ -62,7 +62,7 @@ to another leaf node. Problem available also on [GeekForGeeks](http://practice.g
 #### Nested Segments | [Solution](https://github.com/domferr/competitive-programming/tree/main/NestedSegments)
 
 You are given n segments on a line. There are no ends of some segments that coincide. For each segment find the number 
-of segments it contains. Problem available also on [CodeForces](https://codeforces.com/problemset/problem/652/D?locale=en).
+of segments it contains. Problem available also on [Codeforces](https://codeforces.com/problemset/problem/652/D?locale=en).
 
 #### Counting Inversions | [Solution](https://github.com/domferr/competitive-programming/tree/main/CountingInversions)
 
@@ -113,3 +113,11 @@ array.
 
 The tree is stored as an array in the order of Euler tour traversal. It is memory efficient because only (2 * N) - 1 
 nodes are stored, where N is the number of original elements.
+
+## Other problems
+
+#### Tiling Problem | [Source code](https://github.com/domferr/competitive-programming/tree/main/TilingProblem)
+
+Given a “2 x n” board and tiles of size “2 x 1”, count the number of ways to tile the given board using the 2 x 1
+tiles. A tile can either be placed horizontally i.e., as a 1 x 2 tile or vertically i.e., as 2 x 1 tile. Problem
+available also on [GeeksForGeeks](https://www.geeksforgeeks.org/tiling-problem/).

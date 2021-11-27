@@ -28,6 +28,7 @@
       <config projectName="competitive-programming" targetName="gtest_main" />
       <config projectName="competitive-programming" targetName="rod_cutting_test" />
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
+      <config projectName="competitive-programming" targetName="gold_mine_problem_test" />
       <config projectName="competitive-programming" targetName="long_term_problem_test" />
     </generated>
   </component>
@@ -38,11 +39,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TilingProblem/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TilingProblem/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TilingProblem/tests.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TilingProblem/tiling_problem.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TilingProblem/tiling_problem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldMineProblem/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldMineProblem/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldMineProblem/gold_mine_problem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldMineProblem/gold_mine_problem.tpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoldMineProblem/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -117,7 +118,7 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.tiling_problem_test">
+  <component name="RunManager" selected="Google Test.gold_mine_problem_test">
     <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -137,6 +138,12 @@
       </method>
     </configuration>
     <configuration name="fenwick_tree_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="fenwick_tree_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="fenwick_tree_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gold_mine_problem_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gold_mine_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="gold_mine_problem_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -289,6 +296,7 @@
       <item itemvalue="Google Test.missing_number_test" />
       <item itemvalue="Google Test.nested_segments_test" />
       <item itemvalue="Google Test.fenwick_tree_test" />
+      <item itemvalue="Google Test.gold_mine_problem_test" />
       <item itemvalue="Google Test.house_robber_test" />
       <item itemvalue="Google Test.kadanes_algorithm_test" />
       <item itemvalue="Google Test.longest_k_good_segment_test" />
@@ -328,7 +336,9 @@
       <workItem from="1637351352248" duration="3403000" />
       <workItem from="1637396042201" duration="9611000" />
       <workItem from="1637492223193" duration="3018000" />
-      <workItem from="1638006692223" duration="7919000" />
+      <workItem from="1638006692223" duration="8148000" />
+      <workItem from="1638026057671" duration="405000" />
+      <workItem from="1638032538576" duration="1034000" />
     </task>
     <servers />
   </component>

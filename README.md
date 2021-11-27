@@ -121,3 +121,11 @@ nodes are stored, where N is the number of original elements.
 Given a “2 x n” board and tiles of size “2 x 1”, count the number of ways to tile the given board using the 2 x 1
 tiles. A tile can either be placed horizontally i.e., as a 1 x 2 tile or vertically i.e., as 2 x 1 tile. Problem
 available also on [GeeksForGeeks](https://www.geeksforgeeks.org/tiling-problem/).
+
+#### Gold Mine Problem | [Source code](https://github.com/domferr/competitive-programming/tree/main/GoldMineProblem)
+
+Given a gold mine of n*m dimensions. Each field in this mine contains a positive integer which is the amount of gold 
+in tons. Initially the miner is at first column but can be at any row. He can move only (right->,right up /,right down\) 
+that is from a given cell, the miner can move to the cell diagonally up towards the right or right or diagonally down 
+towards the right. Find out maximum amount of gold he can collect. Problem available also 
+on [GeeksForGeeks](https://www.geeksforgeeks.org/gold-mine-problem/).

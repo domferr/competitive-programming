@@ -24,6 +24,7 @@
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
       <config projectName="competitive-programming" targetName="segment_tree_test" />
       <config projectName="competitive-programming" targetName="gmock_main" />
+      <config projectName="competitive-programming" targetName="01knapsack_test" />
       <config projectName="competitive-programming" targetName="counting_inversions_test" />
       <config projectName="competitive-programming" targetName="long_term_problem_test" />
       <config projectName="competitive-programming" targetName="next_larger_element_test" />
@@ -36,14 +37,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MinimumCostPath/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimumCostPath/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimumCostPath/minimum_cost_path.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimumCostPath/minimum_cost_path.tpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MinimumCostPath/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01Knapsack/01knapsack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01Knapsack/01knapsack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01Knapsack/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01Knapsack/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_cook_book.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/gmock_cook_book.md" afterDir="false" />
@@ -115,10 +114,11 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.minimum_cost_path_test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="Google Test.01knapsack_test">
+    <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
@@ -229,6 +229,11 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -277,6 +282,7 @@
       <item itemvalue="Google Test.house_robber_test" />
       <item itemvalue="Google Test.kadanes_algorithm_test" />
       <item itemvalue="Google Test.longest_k_good_segment_test" />
+      <item itemvalue="Google Test.01knapsack_test" />
       <item itemvalue="Google Test.bst_test" />
       <item itemvalue="Google Test.next_larger_element_test" />
       <item itemvalue="Google Test.rod_cutting_test" />
@@ -311,7 +317,8 @@
       <workItem from="1637328502964" duration="8207000" />
       <workItem from="1637351352248" duration="3403000" />
       <workItem from="1637396042201" duration="9611000" />
-      <workItem from="1637492223193" duration="2937000" />
+      <workItem from="1637492223193" duration="3018000" />
+      <workItem from="1638006692223" duration="5875000" />
     </task>
     <servers />
   </component>

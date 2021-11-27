@@ -90,6 +90,14 @@ alerting the police. Problem available also on [LeetCode](https://leetcode.com/p
 We are given a matrix M of n * m integers. The goal is to find the minimum cost path to move from the top-left 
 corner to the bottom-right corner by moving only down or to right.
 
+#### 0-1 Knapsack | [Solution](https://github.com/domferr/competitive-programming/tree/main/01Knapsack)
+
+You are packing for a vacation on the sea side and you are going to carry only one bag with capacity
+S (1 <= S <= 2000). You also have N (1<= N <= 2000) items that you might want to take with you to the sea side.
+Unfortunately you can not fit all of them in the knapsack so you will have to choose. For each item you are given
+its size and its value. You want to maximize the total value of all the items you are going to bring. What is this
+maximum total value? Problem available also on [Sphere Online Judge](https://www.spoj.com/problems/KNAPSACK/).
+
 ## Data structures
 
 #### Binary Search Tree | [Source code](https://github.com/domferr/competitive-programming/tree/main/BinarySearchTree)

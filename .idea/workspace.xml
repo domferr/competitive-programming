@@ -10,6 +10,7 @@
       <config projectName="competitive-programming" targetName="tiling_problem_test" />
       <config projectName="competitive-programming" targetName="house_robber_test" />
       <config projectName="competitive-programming" targetName="minimum_cost_path_test" />
+      <config projectName="competitive-programming" targetName="coin_change_test" />
       <config projectName="competitive-programming" targetName="segment_tree_test" />
       <config projectName="competitive-programming" targetName="gmock_main" />
       <config projectName="competitive-programming" targetName="01knapsack_test" />
@@ -39,11 +40,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GoldMineProblem/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoldMineProblem/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoldMineProblem/gold_mine_problem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoldMineProblem/gold_mine_problem.tpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoldMineProblem/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoinChange/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoinChange/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoinChange/coin_change.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoinChange/coin_change.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoinChange/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -118,7 +119,7 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.gold_mine_problem_test">
+  <component name="RunManager" selected="Google Test.coin_change_test">
     <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -126,6 +127,12 @@
       </method>
     </configuration>
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="coin_change_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="coin_change_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="coin_change_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -287,6 +294,7 @@
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CTest Application.All CTest" />
+      <item itemvalue="Google Test.coin_change_test" />
       <item itemvalue="Google Test.counting_inversions_test" />
       <item itemvalue="Google Test.tiling_problem_test" />
       <item itemvalue="Google Test.towers_test" />
@@ -338,7 +346,7 @@
       <workItem from="1637492223193" duration="3018000" />
       <workItem from="1638006692223" duration="8148000" />
       <workItem from="1638026057671" duration="405000" />
-      <workItem from="1638032538576" duration="1034000" />
+      <workItem from="1638032538576" duration="5828000" />
     </task>
     <servers />
   </component>

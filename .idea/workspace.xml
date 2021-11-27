@@ -40,13 +40,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CoinChange/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoinChange/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoinChange/coin_change.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoinChange/coin_change.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CoinChange/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" afterDir="false" />
@@ -346,7 +340,7 @@
       <workItem from="1637492223193" duration="3018000" />
       <workItem from="1638006692223" duration="8148000" />
       <workItem from="1638026057671" duration="405000" />
-      <workItem from="1638032538576" duration="5828000" />
+      <workItem from="1638032538576" duration="6829000" />
     </task>
     <servers />
   </component>

@@ -14,6 +14,7 @@
       <config projectName="competitive-programming" targetName="segment_tree_test" />
       <config projectName="competitive-programming" targetName="gmock_main" />
       <config projectName="competitive-programming" targetName="01knapsack_test" />
+      <config projectName="competitive-programming" targetName="subset_sum_test" />
       <config projectName="competitive-programming" targetName="counting_inversions_test" />
       <config projectName="competitive-programming" targetName="next_larger_element_test" />
       <config projectName="competitive-programming" targetName="gmock" />
@@ -40,7 +41,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SubsetSum/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubsetSum/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubsetSum/subset_sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubsetSum/subset_sum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubsetSum/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/advanced.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/googletest-src/docs/faq.md" afterDir="false" />
@@ -113,7 +120,12 @@
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.coin_change_test">
+  <component name="RunManager" selected="Google Test.subset_sum_test">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -228,6 +240,12 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="subset_sum_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="subset_sum_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="subset_sum_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tiling_problem_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="tiling_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="tiling_problem_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -244,11 +262,6 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
@@ -307,6 +320,7 @@
       <item itemvalue="Google Test.next_larger_element_test" />
       <item itemvalue="Google Test.rod_cutting_test" />
       <item itemvalue="Google Test.sliding_window_maximum_test" />
+      <item itemvalue="Google Test.subset_sum_test" />
       <item itemvalue="Google Test.trapping_rain_water_test" />
       <item itemvalue="Google Test.long_term_problem_test" />
       <item itemvalue="Google Test.maximum_path_sum_test" />
@@ -340,7 +354,8 @@
       <workItem from="1637492223193" duration="3018000" />
       <workItem from="1638006692223" duration="8148000" />
       <workItem from="1638026057671" duration="405000" />
-      <workItem from="1638032538576" duration="6829000" />
+      <workItem from="1638032538576" duration="7030000" />
+      <workItem from="1638097425994" duration="2108000" />
     </task>
     <servers />
   </component>

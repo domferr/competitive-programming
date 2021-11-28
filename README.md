@@ -93,7 +93,7 @@ corner to the bottom-right corner by moving only down or to right.
 #### 0-1 Knapsack | [Solution](https://github.com/domferr/competitive-programming/tree/main/01Knapsack)
 
 You are packing for a vacation on the sea side and you are going to carry only one bag with capacity
-**S** (1 <= S <= 2000). You also have **N** (1<= N <= 2000) items that you might want to take with you to the seaside.
+**S** (1 <= S <= 2000). You also have **N** (1 <= N <= 2000) items that you might want to take with you to the seaside.
 Unfortunately you can not fit all of them in the knapsack, so you will have to choose. For each item you are given
 its size and its value. You want to maximize the total value of all the items you are going to bring. What is this
 maximum total value? Problem available also on [Sphere Online Judge](https://www.spoj.com/problems/KNAPSACK/).
@@ -103,6 +103,11 @@ maximum total value? Problem available also on [Sphere Online Judge](https://www
 Given a value **N**, if we want to make change for **N** cents, and we have infinite supply of each of 
 **S = { S1, S2, ... , Sm }** valued coins, how many ways can we make the change? The order of coins doesn’t matter. 
 Problem available also on [GeeksForGeeks](https://www.geeksforgeeks.org/coin-change-dp-7/?ref=lbp).
+
+#### Subset Sum | [Solution](https://github.com/domferr/competitive-programming/tree/main/SubsetSum)
+
+Given an **array** of non-negative integers, and a value **sum**, determine if there is a subset of the given set with 
+sum equal to given **sum**. Problem available also on [GeeksForGeeks](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/).
 
 ## Data structures
 

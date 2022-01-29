@@ -1,1 +1,2 @@
 add_subdirectory(JarvisMarch)
+add_subdirectory(GrahamScan)

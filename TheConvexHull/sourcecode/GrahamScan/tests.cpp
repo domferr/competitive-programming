@@ -3,18 +3,18 @@
 //
 
 #include <gtest/gtest.h>
-#include "jarvismarch.h"
+#include "grahamscan.h"
 #include "../testsuite/testsuite.h"
 #include "../utils/utils.h"
 
-TEST(JarvisMarchTest1, BasicAssertions) {
+TEST(GrahamScanTest1, BasicAssertions) {
     std::vector<Point> points = get_test_set_1();
-    std::vector<Point> res = jarvismarch(points);
+    std::vector<Point> res = grahamscan(points);
     EXPECT_CH_EQ(res, get_solution_set_1());
 }
 
-TEST(JarvisMarchTest2, BasicAssertions) {
+TEST(GrahamScanTest2, BasicAssertions) {
     std::vector<Point> points = get_test_set_2();
-    std::vector<Point> res = jarvismarch(points);
+    std::vector<Point> res = grahamscan(points);
     EXPECT_CH_EQ(res, get_solution_set_2());
 }

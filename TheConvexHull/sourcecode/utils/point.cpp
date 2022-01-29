@@ -6,6 +6,11 @@
 
 Point::Point(int x, int y) : x(x), y(y) {}
 
+std::ostream &operator<<(std::ostream &os, const Point &point) {
+    os << "[" << point.x << ", " << point.y << "]";
+    return os;
+}
+
 bool Point::operator==(const Point &rhs) const {
     return x == rhs.x &&
            y == rhs.y;
@@ -13,9 +18,4 @@ bool Point::operator==(const Point &rhs) const {
 
 bool Point::operator!=(const Point &rhs) const {
     return !(rhs == *this);
-}
-
-std::ostream &operator<<(std::ostream &os, const Point &point) {
-    os << "[" << point.x << ", " << point.y << "]";
-    return os;
 }

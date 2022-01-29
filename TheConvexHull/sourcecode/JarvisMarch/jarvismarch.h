@@ -8,6 +8,6 @@
 #include "vector"
 #include "../utils/point.h"
 
-std::vector<Point> jarvismarch(std::vector<Point> &points);
+std::vector<Point> jarvismarch(const std::vector<Point> &points);
 
 #endif //COMPETITIVE_PROGRAMMING_JARVISMARCH_H

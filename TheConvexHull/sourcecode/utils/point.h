@@ -15,11 +15,12 @@ struct Point {
 
     Point(int x, int y);
 
+    friend std::ostream &operator<<(std::ostream &os, const Point &point);
+
     bool operator==(const Point &rhs) const;
 
     bool operator!=(const Point &rhs) const;
 
-    friend std::ostream &operator<<(std::ostream &os, const Point &point);
 };
 
 #endif //COMPETITIVE_PROGRAMMING_POINT_H

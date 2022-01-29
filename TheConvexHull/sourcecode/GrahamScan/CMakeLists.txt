@@ -1,7 +1,7 @@
 add_executable(
-        jarvis_march_test
-        jarvismarch.cpp
-        jarvismarch.h
+        graham_scan_test
+        grahamscan.cpp
+        grahamscan.h
         ../utils/utils.cpp
         ../utils/utils.h
         ../utils/point.cpp
@@ -11,8 +11,8 @@ add_executable(
         tests.cpp
 )
 target_link_libraries(
-        jarvis_march_test
+        graham_scan_test
         gtest_main
 )
 
-gtest_discover_tests(jarvis_march_test)
+gtest_discover_tests(graham_scan_test)

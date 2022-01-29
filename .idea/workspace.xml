@@ -17,6 +17,7 @@
       <config projectName="competitive-programming" targetName="subset_sum_test" />
       <config projectName="competitive-programming" targetName="counting_inversions_test" />
       <config projectName="competitive-programming" targetName="next_larger_element_test" />
+      <config projectName="competitive-programming" targetName="graham_scan_test" />
       <config projectName="competitive-programming" targetName="gmock" />
       <config projectName="competitive-programming" targetName="maximum_path_sum_test" />
       <config projectName="competitive-programming" targetName="towers_test" />
@@ -42,17 +43,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/tests.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +106,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="ctest.advertisement.all.test.configuration.is.created" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -110,6 +116,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\University\CPC\competitive-programming\TheConvexHull\sourcecode\GrahamScan" />
       <recent name="C:\University\CPC\competitive-programming\NestedSegments" />
       <recent name="C:\University\CPC\competitive-programming" />
     </key>
@@ -118,7 +125,7 @@
       <recent name="D:\University\CPC\competitive-programming\TheConvexHull" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.jarvis_march_test">
+  <component name="RunManager" selected="Google Test.graham_scan_test">
     <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -150,6 +157,12 @@
       </method>
     </configuration>
     <configuration name="gold_mine_problem_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gold_mine_problem_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="gold_mine_problem_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="graham_scan_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="graham_scan_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="graham_scan_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -325,6 +338,7 @@
       <item itemvalue="Google Test.segment_tree_test" />
       <item itemvalue="Google Test.sliding_window_maximum_test" />
       <item itemvalue="Google Test.subset_sum_test" />
+      <item itemvalue="Google Test.graham_scan_test" />
       <item itemvalue="Google Test.jarvis_march_test" />
       <item itemvalue="Google Test.tiling_problem_test" />
       <item itemvalue="Google Test.towers_test" />
@@ -361,7 +375,7 @@
       <workItem from="1638026057671" duration="405000" />
       <workItem from="1638032538576" duration="7030000" />
       <workItem from="1638097425994" duration="2783000" />
-      <workItem from="1643476026019" duration="4022000" />
+      <workItem from="1643476026019" duration="15608000" />
     </task>
     <servers />
   </component>

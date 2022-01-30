@@ -44,19 +44,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/quickhull.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/quickhull.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/quickhull.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/quickhull.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +112,7 @@
       <recent name="D:\University\CPC\competitive-programming\TheConvexHull" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.jarvis_march_test">
+  <component name="RunManager" selected="Google Test.quick_hull_test">
     <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -280,6 +269,11 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -304,11 +298,6 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -376,7 +365,8 @@
       <workItem from="1638032538576" duration="7030000" />
       <workItem from="1638097425994" duration="2783000" />
       <workItem from="1643476026019" duration="20406000" />
-      <workItem from="1643536849079" duration="4258000" />
+      <workItem from="1643536849079" duration="5888000" />
+      <workItem from="1643565853759" duration="306000" />
     </task>
     <servers />
   </component>

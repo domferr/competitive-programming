@@ -6,42 +6,45 @@
 #include "quickhull.h"
 #include "../utils/utils.h"
 
-int distance(Point p1, Point p2, Point p) {
-    return abs((p.y - p1.y) * (p2.x - p1.x) - (p2.y - p1.y) * (p.x - p1.x));
-}
-
 void findhull(std::vector<Point> &ch, const std::vector<Point> &points, const Point &left, const Point &right) {
-    int maxPointIndex = -1;
+    int farPointIndex = -1;
     int maxDistance = 0;
 
     // Find the farthest point from the line left-right
     for (int i = 0; i < points.size(); ++i) {
-        int dist = distance(left, right, points[i]);
-        if (dist > maxDistance) {
-            maxPointIndex = i;
-            maxDistance = dist;
+        // distance from the point to the line left-right
+        int distance = abs((points[i].y - left.y) * (right.x - left.x) -
+                           (right.y - left.y) * (points[i].x - left.x));
+        if (distance > maxDistance) {
+            farPointIndex = i;
+            maxDistance = distance;
         }
     }
 
-    if (maxPointIndex == -1) {
+    // there are no remaining points
+    if (farPointIndex == -1) {
         ch.push_back(left);
         return;
     }
 
-    std::vector<Point> leftside;
-    std::vector<Point> rightside;
+    // Divide the set of points into two subsets
+    std::vector<Point> rightside; // points to the right of the line right-max
+    std::vector<Point> leftside;  // points to the left of the line left-max
     for (int i = 0; i < points.size(); ++i) {
-        if (i == maxPointIndex) continue;
+        if (i == farPointIndex) continue; // avoid checking the max again
 
-        int orienWithLeft = orientation(left, points[maxPointIndex], points[i]);
+        int orienWithLeft = orientation(left, points[farPointIndex], points[i]);
         if (orienWithLeft == CW) {
-            leftside.push_back(points[i]);
-        } else if (orientation(right, points[maxPointIndex], points[i]) == CCW) {
+            // the point lies to the right of the line left-far
             rightside.push_back(points[i]);
+        } else if (orientation(right, points[farPointIndex], points[i]) == CCW) {
+            // the point lies to the left of the line right-far
+            leftside.push_back(points[i]);
         }
     }
-    findhull(ch, leftside, left, points[maxPointIndex]);
-    findhull(ch, rightside, points[maxPointIndex], right);
+
+    findhull(ch, rightside, left, points[farPointIndex]);
+    findhull(ch, leftside, points[farPointIndex], right);
 }
 
 std::vector<Point> quickhull(const std::vector<Point> &points) {

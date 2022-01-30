@@ -8,12 +8,13 @@
 #include "../utils/point.h"
 
 std::vector<Point> get_test_set_1();
-
 std::vector<Point> get_solution_set_1();
 
 std::vector<Point> get_test_set_2();
-
 std::vector<Point> get_solution_set_2();
+
+std::vector<Point> get_test_set_3();
+std::vector<Point> get_solution_set_3();
 
 void compare_convex_hulls(const std::vector<Point> &ch1, const std::vector<Point> &ch2);
 

@@ -17,7 +17,7 @@ std::vector<Point> grahamscan(std::vector<Point> &points) {
     std::sort(points.begin()+1, points.end(), [&leftmost](Point &p1, Point &p2) {
         int orien = orientation(leftmost, p1, p2);
         if (orien == COL) // Points are colinear. Compare by distance
-            return norm_sq(leftmost, p2) >= norm_sq(leftmost, p1);
+            return dist_sq(leftmost, p2) >= dist_sq(leftmost, p1);
 
         return orien == CCW;
     });
@@ -30,6 +30,6 @@ std::vector<Point> grahamscan(std::vector<Point> &points) {
             ch.pop_back();
         ch.push_back(points[i]);
     }
-    
+
     return ch;
 }

@@ -24,11 +24,13 @@ std::vector<Point> get_solution_set_2() {
 }
 
 std::vector<Point> get_test_set_3() {
-    return {{0, 3}, {1, 1}, {2, 2}, {4, 4}, {0, 0}, {1, 2}, {3, 1}, {3, 3}};
+    return { P(-75, -13), P(102, 8), P(-50, -72), P(66, -55), P(-23, 44),
+             P(37, 24), P(28, -29), P(-29, 28), P(-28, 20), P(56, 69),
+             P(-50, 59)};
 }
 
 std::vector<Point> get_solution_set_3() {
-    return {P(0, 3), P(4, 4), P(3, 1), P(0, 0) };
+    return { P(-75, -13), P(-50, -72), P(66, -55), P(102, 8), P(56, 69), P(-50, 59)};
 }
 
 void compare_convex_hulls(const std::vector<Point> &ch1, const std::vector<Point> &ch2) {

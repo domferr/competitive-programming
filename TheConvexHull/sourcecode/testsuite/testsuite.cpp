@@ -8,11 +8,11 @@
 #include "../utils/utils.h"
 
 std::vector<Point> get_test_set_1() {
-    return { P(0, 0), P(10, 0), P(0, 10) };
+    return { P(0, 0), P(10, 0), P(0, 10), P(10, 10) };
 }
 
 std::vector<Point> get_solution_set_1() {
-    return {P(0, 0), P(10, 0), P(0, 10)};
+    return {P(0, 0), P(10, 0), P(10, 10), P(0, 10)};
 }
 
 std::vector<Point> get_test_set_2() {

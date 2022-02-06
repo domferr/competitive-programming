@@ -33,6 +33,7 @@
       <config projectName="competitive-programming" targetName="missing_number_test" />
       <config projectName="competitive-programming" targetName="gtest_main" />
       <config projectName="competitive-programming" targetName="rod_cutting_test" />
+      <config projectName="competitive-programming" targetName="chan_test" />
       <config projectName="competitive-programming" targetName="max_segment_intersections_test" />
       <config projectName="competitive-programming" targetName="jarvis_march_test" />
       <config projectName="competitive-programming" targetName="gold_mine_problem_test" />
@@ -47,28 +48,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Incremental/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Incremental/incremental.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Incremental/incremental.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Incremental/tests.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/MonotoneChain/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/MonotoneChain/monotonechain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/MonotoneChain/monotonechain.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/MonotoneChain/tests.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Preparata/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Preparata/preparata.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Preparata/preparata.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Preparata/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Chan/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Chan/chan.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Chan/chan.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Chan/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/quickhull.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/quickhull.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +122,7 @@
       <recent name="D:\University\CPC\competitive-programming\TheConvexHull" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.incremental_test">
+  <component name="RunManager" selected="Google Test.chan_test">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -148,6 +135,12 @@
       </method>
     </configuration>
     <configuration name="bst_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="bst_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="bst_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chan_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="chan_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="chan_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -372,6 +365,7 @@
       <item itemvalue="Google Test.segment_tree_test" />
       <item itemvalue="Google Test.sliding_window_maximum_test" />
       <item itemvalue="Google Test.subset_sum_test" />
+      <item itemvalue="Google Test.chan_test" />
       <item itemvalue="Google Test.graham_scan_test" />
       <item itemvalue="Google Test.incremental_test" />
       <item itemvalue="Google Test.jarvis_march_test" />
@@ -417,7 +411,7 @@
       <workItem from="1643536849079" duration="5888000" />
       <workItem from="1643565853759" duration="3184000" />
       <workItem from="1643992198427" duration="6550000" />
-      <workItem from="1644076853775" duration="14068000" />
+      <workItem from="1644076853775" duration="28958000" />
     </task>
     <servers />
   </component>

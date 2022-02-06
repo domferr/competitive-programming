@@ -1,0 +1,20 @@
+add_executable(
+        chan_test
+        chan.cpp
+        chan.h
+        ../utils/utils.cpp
+        ../utils/utils.h
+        ../utils/point.cpp
+        ../utils/point.h
+        ../testsuite/testsuite.cpp
+        ../testsuite/testsuite.h
+        ../GrahamScan/grahamscan.h
+        ../GrahamScan/grahamscan.cpp
+        tests.cpp
+)
+target_link_libraries(
+        chan_test
+        gtest_main
+)
+
+gtest_discover_tests(chan_test)

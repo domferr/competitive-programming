@@ -48,8 +48,8 @@ void findhull(std::vector<Point> &ch, const std::vector<Point> &points, const Po
 }
 
 std::vector<Point> quickhull(const std::vector<Point> &points) {
-    Point leftmost = get_leftmost_point(points);
-    Point rightmost = get_rightmost_point(points);
+    Point leftmost = leftmost_point(points);
+    Point rightmost = rightmost_point(points);
     std::vector<Point> ch;
     std::vector<Point> rightside;
     std::vector<Point> leftside;

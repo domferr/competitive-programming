@@ -7,7 +7,7 @@
 
 std::vector<Point> jarvismarch(const std::vector<Point> &points) {
     std::vector<Point> ch;
-    int leftmostPointIndex = get_leftmost_point_index(points);
+    int leftmostPointIndex = leftmost_point_index(points);
     int hullPointIndex = leftmostPointIndex;
     Point hullPoint = points[hullPointIndex];
     do {

@@ -15,7 +15,7 @@ int dist_sq(const Point &p1, const Point &p2) {
     return ((p1.x - p2.x) * (p1.x - p2.x)) + ((p1.y - p2.y) * (p1.y - p2.y));
 }
 
-int get_leftmost_point_index(const std::vector<Point> &points) {
+int leftmost_point_index(const std::vector<Point> &points) {
     int index = 0;
     Point leftmost = points[index];
     for (int i = 0; i<points.size(); ++i) {
@@ -28,11 +28,7 @@ int get_leftmost_point_index(const std::vector<Point> &points) {
     return index;
 }
 
-Point get_leftmost_point(const std::vector<Point> &points) {
-    return points[get_leftmost_point_index(points)];
-}
-
-int get_rightmost_point_index(const std::vector<Point> &points) {
+int rightmost_point_index(const std::vector<Point> &points) {
     int index = 0;
     Point rightmost = points[index];
     for (int i = 0; i<points.size(); ++i) {
@@ -43,8 +39,4 @@ int get_rightmost_point_index(const std::vector<Point> &points) {
         }
     }
     return index;
-}
-
-Point get_rightmost_point(const std::vector<Point> &points) {
-    return points[get_rightmost_point_index(points)];
 }

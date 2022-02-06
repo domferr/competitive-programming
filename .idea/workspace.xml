@@ -10,8 +10,10 @@
       <config projectName="competitive-programming" targetName="tiling_problem_test" />
       <config projectName="competitive-programming" targetName="house_robber_test" />
       <config projectName="competitive-programming" targetName="minimum_cost_path_test" />
+      <config projectName="competitive-programming" targetName="monotone_chain_test" />
       <config projectName="competitive-programming" targetName="coin_change_test" />
       <config projectName="competitive-programming" targetName="segment_tree_test" />
+      <config projectName="competitive-programming" targetName="incremental_test" />
       <config projectName="competitive-programming" targetName="gmock_main" />
       <config projectName="competitive-programming" targetName="01knapsack_test" />
       <config projectName="competitive-programming" targetName="subset_sum_test" />
@@ -21,6 +23,7 @@
       <config projectName="competitive-programming" targetName="gmock" />
       <config projectName="competitive-programming" targetName="maximum_path_sum_test" />
       <config projectName="competitive-programming" targetName="towers_test" />
+      <config projectName="competitive-programming" targetName="preparata_test" />
       <config projectName="competitive-programming" targetName="fenwick_tree_test" />
       <config projectName="competitive-programming" targetName="sliding_window_maximum_test" />
       <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
@@ -44,8 +47,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Incremental/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Incremental/incremental.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Incremental/incremental.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Incremental/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/MonotoneChain/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/MonotoneChain/monotonechain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/MonotoneChain/monotonechain.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/MonotoneChain/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Preparata/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Preparata/preparata.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Preparata/preparata.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Preparata/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/JarvisMarch/jarvismarch.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/quickhull.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/QuickHull/quickhull.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/point.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/utils/utils.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +135,12 @@
       <recent name="D:\University\CPC\competitive-programming\TheConvexHull" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.quick_hull_test">
+  <component name="RunManager" selected="Google Test.incremental_test">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -156,6 +184,12 @@
       </method>
     </configuration>
     <configuration name="house_robber_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="house_robber_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="house_robber_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="incremental_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="incremental_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="incremental_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -209,6 +243,12 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="monotone_chain_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="monotone_chain_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="monotone_chain_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="nested_segments_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="nested_segments_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="nested_segments_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -216,6 +256,12 @@
       </method>
     </configuration>
     <configuration name="next_larger_element_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="next_larger_element_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="next_larger_element_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="preparata_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="preparata_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="preparata_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -269,11 +315,6 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -298,6 +339,11 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -327,7 +373,10 @@
       <item itemvalue="Google Test.sliding_window_maximum_test" />
       <item itemvalue="Google Test.subset_sum_test" />
       <item itemvalue="Google Test.graham_scan_test" />
+      <item itemvalue="Google Test.incremental_test" />
       <item itemvalue="Google Test.jarvis_march_test" />
+      <item itemvalue="Google Test.monotone_chain_test" />
+      <item itemvalue="Google Test.preparata_test" />
       <item itemvalue="Google Test.quick_hull_test" />
       <item itemvalue="Google Test.tiling_problem_test" />
       <item itemvalue="Google Test.towers_test" />
@@ -366,7 +415,9 @@
       <workItem from="1638097425994" duration="2783000" />
       <workItem from="1643476026019" duration="20406000" />
       <workItem from="1643536849079" duration="5888000" />
-      <workItem from="1643565853759" duration="306000" />
+      <workItem from="1643565853759" duration="3184000" />
+      <workItem from="1643992198427" duration="6550000" />
+      <workItem from="1644076853775" duration="14068000" />
     </task>
     <servers />
   </component>

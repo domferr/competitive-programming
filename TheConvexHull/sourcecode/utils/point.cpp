@@ -19,3 +19,7 @@ bool Point::operator==(const Point &rhs) const {
 bool Point::operator!=(const Point &rhs) const {
     return !(rhs == *this);
 }
+
+Point::Point() {
+
+}

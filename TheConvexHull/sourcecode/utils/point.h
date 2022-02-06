@@ -10,8 +10,10 @@
 #define P(x, y) Point(x, y)
 
 struct Point {
-    int x;
-    int y;
+    int x{};
+    int y{};
+
+    Point();
 
     Point(int x, int y);
 

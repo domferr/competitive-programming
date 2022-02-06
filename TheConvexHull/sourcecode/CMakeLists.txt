@@ -1,3 +1,6 @@
 add_subdirectory(JarvisMarch)
 add_subdirectory(GrahamScan)
 add_subdirectory(QuickHull)
+add_subdirectory(MonotoneChain)
+add_subdirectory(Preparata)
+add_subdirectory(Incremental)

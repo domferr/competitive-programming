@@ -9,7 +9,7 @@
 
 std::vector<Point> grahamscan(std::vector<Point> &points) {
     std::vector<Point> ch;
-    int leftmostIndex = get_leftmost_point_index(points);
+    int leftmostIndex = leftmost_point_index(points);
     Point leftmost = points[leftmostIndex];
     std::swap(points[leftmostIndex], points[0]);
 

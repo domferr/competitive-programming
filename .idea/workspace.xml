@@ -27,6 +27,7 @@
       <config projectName="competitive-programming" targetName="fenwick_tree_test" />
       <config projectName="competitive-programming" targetName="sliding_window_maximum_test" />
       <config projectName="competitive-programming" targetName="trapping_rain_water_test" />
+      <config projectName="competitive-programming" targetName="kirkpatrick_seidel_test" />
       <config projectName="competitive-programming" targetName="longest_k_good_segment_test" />
       <config projectName="competitive-programming" targetName="gtest" />
       <config projectName="competitive-programming" targetName="bst_test" />
@@ -48,14 +49,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Chan/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Chan/chan.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Chan/chan.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/Chan/tests.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/kirkpatrick_seidel.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/kirkpatrick_seidel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/GrahamScan/grahamscan.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/testsuite/testsuite.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,12 +121,7 @@
       <recent name="D:\University\CPC\competitive-programming\TheConvexHull" />
     </key>
   </component>
-  <component name="RunManager" selected="Google Test.chan_test">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Google Test.kirkpatrick_seidel_test">
     <configuration name="01knapsack_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="01knapsack_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="01knapsack_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -195,6 +189,12 @@
       </method>
     </configuration>
     <configuration name="kadanes_algorithm_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="kadanes_algorithm_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="kadanes_algorithm_test" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kirkpatrick_seidel_test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="kirkpatrick_seidel_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="competitive-programming" RUN_TARGET_NAME="kirkpatrick_seidel_test" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -308,6 +308,11 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -372,6 +377,7 @@
       <item itemvalue="Google Test.monotone_chain_test" />
       <item itemvalue="Google Test.preparata_test" />
       <item itemvalue="Google Test.quick_hull_test" />
+      <item itemvalue="Google Test.kirkpatrick_seidel_test" />
       <item itemvalue="Google Test.tiling_problem_test" />
       <item itemvalue="Google Test.towers_test" />
       <item itemvalue="Google Test.trapping_rain_water_test" />
@@ -411,7 +417,8 @@
       <workItem from="1643536849079" duration="5888000" />
       <workItem from="1643565853759" duration="3184000" />
       <workItem from="1643992198427" duration="6550000" />
-      <workItem from="1644076853775" duration="28958000" />
+      <workItem from="1644076853775" duration="29561000" />
+      <workItem from="1644180106883" duration="5748000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,6 @@
 #include <vector>
 #include "../utils/utils.h"
 
-std::vector<Point> kirkpatrick_seidel(const std::vector<Point> &points);
+std::vector<Point> kirkpatrick_seidel(std::vector<Point> &points);
 
 #endif //COMPETITIVE_PROGRAMMING_KIRKPATRICKSEIDEL_H

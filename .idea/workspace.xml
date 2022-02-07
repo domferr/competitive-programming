@@ -49,12 +49,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c0b868d-3083-4128-85ee-0445a3c8f6ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/kirkpatrick_seidel.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/kirkpatrick_seidel.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/kirkpatrick_seidel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/kirkpatrick_seidel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/kirkpatrick_seidel.h" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/kirkpatrick_seidel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TheConvexHull/sourcecode/KirkpatrickSeidel/tests.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,11 +306,6 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="competitive-programming" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -419,6 +412,7 @@
       <workItem from="1643992198427" duration="6550000" />
       <workItem from="1644076853775" duration="29561000" />
       <workItem from="1644180106883" duration="5748000" />
+      <workItem from="1644243802924" duration="9592000" />
     </task>
     <servers />
   </component>

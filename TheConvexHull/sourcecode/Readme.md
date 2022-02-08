@@ -1,4 +1,4 @@
-# C++ implementation of all the algorithms to compute the convex hull
+### C++ implementation of all the algorithms for computing the convex hull
 
 - [Jarvis Algorithm (Gift Wrapping)](./JarvisMarch)
 - [Graham's scan](./GrahamScan)

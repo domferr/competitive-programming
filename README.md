@@ -113,12 +113,12 @@ sum equal to given **sum**. Problem available also on [GeeksForGeeks](https://ww
 
 #### Binary Search Tree | [Source code](https://github.com/domferr/competitive-programming/tree/main/BinarySearchTree)
 
-The tree is stored as an array. The siblings of a node are easily got by just computing some bit arithmetic.
+The tree is stored as an array. Each node knows its value and the positions of the right and left children in the
+array.
 
 #### Fenwick Tree (or Binary Indexed Tree) | [Source code](https://github.com/domferr/competitive-programming/tree/main/FenwickTree)
 
-The tree is stored as an array. Each node knows its value and the positions of the right and left children in the
-array.
+The tree is stored as an array. The siblings of a node are easily got by just computing some bit arithmetic.
 
 #### Segment Tree | [Source code](https://github.com/domferr/competitive-programming/tree/main/SegmentTree)
 
